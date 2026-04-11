@@ -4,7 +4,7 @@ A taxonomy of Artificial intelligence including applied projects
 [![Preview](ai.png)](ai.pdf)
 
 ## Artificial Intelligence
-Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals [1].
+[Artificial intelligence](artifical_intelligence) (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals [1].
 
 ## Machine Learning
 Machine learning is the study of programs that can improve their performance on a given task automatically [2].
