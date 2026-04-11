@@ -1,6 +1,6 @@
 # A taxonomy of Artificial intelligence including applied projects
 
-Artificial intelligence (AI) is a multidisciplinary field concerned with the design and development of computational systems capable of performing tasks that traditionally require human intelligence, including learning, reasoning, perception, and decision-making. Rooted in computer science, mathematics, and engineering, AI seeks to formalize intelligent behavior and implement it in machines through algorithmic and statistical methods.
+Artificial intelligence (AI) is a multidisciplinary field concerned with the design and development of computational systems capable of performing tasks that traditionally require human intelligence, including learning, reasoning, perception, and decision-making. Rooted in computer science, mathematics, psychology, and engineering, AI seeks to formalize intelligent behavior and implement it in machines through algorithmic and statistical methods.
 
 AI is not a monolithic discipline but rather an umbrella term encompassing a range of interconnected subfields. Machine learning provides data-driven approaches that enable systems to improve performance through experience, while neural networks offer a biologically inspired framework for modeling complex, non-linear relationships. Deep learning extends these models through hierarchical representations, enabling significant advances in domains such as computer vision, speech recognition, and natural language processing. More recent developments, including generative AI and large language models, further expand the scope of AI by enabling systems to generate coherent and contextually relevant content.
 
@@ -21,9 +21,11 @@ Traditional AI systems are typically deterministic and interpretable, meaning th
 However, traditional AI has significant limitations. It struggles with uncertainty, ambiguity, and the complexity of real-world environments, as it requires exhaustive manual knowledge engineering and cannot easily adapt to new or unseen data. These challenges led to the rise of data-driven approaches, particularly machine learning, which can automatically learn patterns from data rather than relying solely on predefined rules.
 
 ## Machine Learning
-[Machine learning](machine_learning/readme.md) is the study of programs that can improve their performance on a given task automatically [2].
+[Machine learning](machine_learning/) is the study of programs that can improve their performance on a given task automatically [2].
 
-There are several kinds of machine learning. Unsupervised learning analyzes a stream of data and finds patterns and makes predictions without any other guidance [3]. Supervised learning requires labeling the training data with the expected answers, and comes in two main varieties: classification (where the program must learn to predict what category the input belongs in) and regression (where the program must deduce a numeric function based on numeric input) [4].
+There are several kinds of machine learning. Unsupervised learning analyzes a stream of data and finds patterns and makes predictions without any other guidance [3]. 
+
+Supervised learning requires labeling the training data with the expected answers, and comes in two main varieties: (i) classification where the program must learn to predict what category the input belongs in [4]; and, (ii) regression where the program must deduce a numeric function based on numeric input [4].
 
 In reinforcement learning, the agent is rewarded for good responses and punished for bad ones. The agent learns to choose responses that are classified as "good" [5]. Transfer learning is when the knowledge gained from one problem is applied to a new problem [6]. Deep learning (as discussed later) is a type of machine learning that runs inputs through biologically inspired artificial neural networks for all of these types of learning [10].
 
