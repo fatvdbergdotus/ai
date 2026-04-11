@@ -10,7 +10,7 @@ These subfields are highly interdependent and often overlap in both theory and a
 
 ## Artificial Intelligence
 
-Traditional Artificial intelligence, often referred to as symbolic AI or classical AI, is an approach to artificial intelligence that focuses on representing knowledge explicitly using symbols and applying logical rules to manipulate those symbols [1]. This paradigm dominated AI research from the 1950s through the 1980s and is grounded in the assumption that intelligent behavior can be achieved through formal reasoning over well-defined representations.
+Traditional [Artificial intelligence](artificial_intelligence/README.md), often referred to as symbolic AI or classical AI, is an approach to artificial intelligence that focuses on representing knowledge explicitly using symbols and applying logical rules to manipulate those symbols [1]. This paradigm dominated AI research from the 1950s through the 1980s and is grounded in the assumption that intelligent behavior can be achieved through formal reasoning over well-defined representations.
 
 At the core of traditional AI is the idea that human knowledge can be encoded in a machine using structured formats such as rules, ontologies, and logic-based systems. These systems rely on techniques from fields such as formal logic, graph theory, and search algorithms to perform tasks like problem-solving, planning, and decision-making. A common example is a rule-based system, where knowledge is expressed as a set of “if–then” rules, and an inference engine applies these rules to derive conclusions.
 
