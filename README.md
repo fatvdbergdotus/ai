@@ -14,6 +14,9 @@ There are several kinds of machine learning. Unsupervised learning analyzes a st
 In reinforcement learning, the agent is rewarded for good responses and punished for bad ones. The agent learns to choose responses that are classified as "good" [5]. Transfer learning is when the knowledge gained from one problem is applied to a new problem [6]. Deep learning is a type of machine learning that runs inputs through biologically inspired artificial neural networks for all of these types of learning [6].
 
 ## Neural Networks
+An artificial neural network is based on a collection of nodes also known as artificial neurons, which loosely model the neurons in a biological brain. It is trained to recognise patterns; once trained, it can recognise those patterns in fresh data. There is an input, at least one hidden layer of nodes and an output. Each node applies a function and once the weight crosses its specified threshold, the data is transmitted to the next layer. A network is typically called a deep neural network if it has at least 2 hidden layers [8].
+
+Learning algorithms for neural networks use local search to choose the weights that will get the right output for each input during training. The most common training technique is the backpropagation algorithm [9]. Neural networks learn to model complex relationships between inputs and outputs and find patterns in data. In theory, a neural network can learn any function.
 
 ## Deep Learning
 
@@ -35,3 +38,7 @@ In reinforcement learning, the agent is rewarded for good responses and punished
 [6] Transfer learning: Russell & Norvig (2021, pp. 281), The Economist (2016)
 
 [7] Artificial Intelligence (AI): What Is AI and How Does It Work?". Built In. Retrieved 30 October 2023
+
+[8] Neural networks: Russell & Norvig (2021, chpt. 21), Domingos (2015, Chapter 4)
+
+[9] Gradient calculation in computational graphs, backpropagation, automatic differentiation: Russell & Norvig (2021, sect. 21.2), Luger & Stubblefield (2004, pp. 467–474), Nilsson (1998, chpt. 3.3)
