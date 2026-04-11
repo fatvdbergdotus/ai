@@ -6,7 +6,7 @@ AI is not a monolithic discipline but rather an umbrella term encompassing a ran
 
 These subfields are highly interdependent and often overlap in both theory and application. A comprehensive understanding of artificial intelligence therefore requires not only familiarity with its individual components but also an appreciation of the relationships between them and their collective role in advancing intelligent systems. 
 
-The following Venn diagram conveniently illustrates how these subfields overlap. In the explanations that follow, each field is discussed without considering its subfield. For instance, the explanation of Artificial Intelligence considers the field of AI without considering Machine Learning, hence, traditional AI.
+The following Venn diagram conveniently illustrates how these subfields overlap. In the explanations that follow, each field is discussed without considering its direct subfield. For instance, the explanation of Artificial Intelligence considers the field of AI without considering Machine Learning, that is, traditional AI.
 
 [![Preview](ai.png)](ai.pdf)
 
