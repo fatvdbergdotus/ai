@@ -9,7 +9,14 @@ These subfields are highly interdependent and often overlap in both theory and a
 [![Preview](ai.png)](ai.pdf)
 
 ## Artificial Intelligence
-[Artificial intelligence](artificial_intelligence/README.md) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals [1].
+
+Traditional Artificial intelligence, often referred to as symbolic AI or classical AI, is an approach to artificial intelligence that focuses on representing knowledge explicitly using symbols and applying logical rules to manipulate those symbols [1]. This paradigm dominated AI research from the 1950s through the 1980s and is grounded in the assumption that intelligent behavior can be achieved through formal reasoning over well-defined representations.
+
+At the core of traditional AI is the idea that human knowledge can be encoded in a machine using structured formats such as rules, ontologies, and logic-based systems. These systems rely on techniques from fields such as formal logic, graph theory, and search algorithms to perform tasks like problem-solving, planning, and decision-making. A common example is a rule-based system, where knowledge is expressed as a set of “if–then” rules, and an inference engine applies these rules to derive conclusions.
+
+Traditional AI systems are typically deterministic and interpretable, meaning their reasoning processes can be traced and understood step by step. This makes them particularly useful in domains where transparency and explainability are important, such as expert systems used in medical diagnosis or legal reasoning.
+
+However, traditional AI has significant limitations. It struggles with uncertainty, ambiguity, and the complexity of real-world environments, as it requires exhaustive manual knowledge engineering and cannot easily adapt to new or unseen data. These challenges led to the rise of data-driven approaches, particularly machine learning, which can automatically learn patterns from data rather than relying solely on predefined rules.
 
 ## Machine Learning
 [Machine learning](machine_learning/readme.md) is the study of programs that can improve their performance on a given task automatically [2].
