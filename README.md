@@ -19,6 +19,9 @@ An artificial neural network is based on a collection of nodes also known as art
 Learning algorithms for neural networks use local search to choose the weights that will get the right output for each input during training. The most common training technique is the backpropagation algorithm [9]. Neural networks learn to model complex relationships between inputs and outputs and find patterns in data. In theory, a neural network can learn any function.
 
 ## Deep Learning
+Deep learning uses several layers of neurons between the network's inputs and outputs [10]. The multiple layers can progressively extract higher-level features from the raw input. For example, in image processing, lower layers may identify edges, while higher layers may identify the concepts relevant to a human such as digits, letters, or faces.[11]
+
+Deep learning has profoundly improved the performance of programs in many important subfields of artificial intelligence, including computer vision, speech recognition, natural language processing, image classification [12], and others. The reason that deep learning performs so well in so many applications is not known as of 2021 [13]. The sudden success of deep learning in 2012–2015 did not occur because of some new discovery or theoretical breakthrough (deep neural networks and backpropagation had been described by many people, as far back as the 1950s) but because of two factors: the incredible increase in computer power, including the hundred-fold increase in speed by switching to GPUs, and the availability of vast amounts of training data, especially the giant curated datasets used for benchmark testing.
 
 ## Generative AI
 
@@ -42,3 +45,11 @@ Learning algorithms for neural networks use local search to choose the weights t
 [8] Neural networks: Russell & Norvig (2021, chpt. 21), Domingos (2015, Chapter 4)
 
 [9] Gradient calculation in computational graphs, backpropagation, automatic differentiation: Russell & Norvig (2021, sect. 21.2), Luger & Stubblefield (2004, pp. 467–474), Nilsson (1998, chpt. 3.3)
+
+[10] Deep learning: Russell & Norvig (2021, chpt. 21), Goodfellow, Bengio & Courville (2016), Hinton et al. (2016), Schmidhuber (2015)
+
+[11] Deng & Yu (2014), pp. 199–200
+
+[12] Ciresan, Meier & Schmidhuber (2012)
+
+[13] Russell & Norvig (2021), p. 750
