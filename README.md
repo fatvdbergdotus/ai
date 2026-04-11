@@ -24,8 +24,10 @@ Deep learning uses several layers of neurons between the network's inputs and ou
 Deep learning has profoundly improved the performance of programs in many important subfields of artificial intelligence, including computer vision, speech recognition, natural language processing, image classification [12], and others. The reason that deep learning performs so well in so many applications is not known as of 2021 [13]. The sudden success of deep learning in 2012–2015 did not occur because of some new discovery or theoretical breakthrough (deep neural networks and backpropagation had been described by many people, as far back as the 1950s) but because of two factors: the incredible increase in computer power, including the hundred-fold increase in speed by switching to GPUs, and the availability of vast amounts of training data, especially the giant curated datasets used for benchmark testing.
 
 ## Generative AI
+Generative AI [14] is a branch of artificial intelligence designed to create new content rather than simply analyze or classify existing data. It can produce text, images, music, video, and even code by learning patterns from vast amounts of training data. Instead of following fixed rules, generative AI models generate original outputs that resemble human-created content, making them powerful tools for creativity, automation, and problem-solving across many industries.
 
 ## Large Language Models
+Large Language Models (LLMs) are a specialized type of generative AI focused on understanding and producing human language [15]. Trained on massive text datasets, they can generate coherent and context-aware responses, answer questions, summarize information, and assist with writing or coding tasks. By predicting the most likely sequence of words based on context, LLMs enable natural, conversational interactions between humans and machines.
 
 ## Bibilography
 [1] Russell & Norvig (2021), pp. 1–4.
@@ -53,3 +55,7 @@ Deep learning has profoundly improved the performance of programs in many import
 [12] Ciresan, Meier & Schmidhuber (2012)
 
 [13] Russell & Norvig (2021), p. 750
+
+[14] IBM. (2023). What is generative AI? IBM. https://www.ibm.com/topics/generative-ai
+
+[15] Google Research. (2020). Language models are few-shot learners
