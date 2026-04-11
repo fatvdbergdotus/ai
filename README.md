@@ -4,7 +4,9 @@ Artificial intelligence (AI) is a multidisciplinary field concerned with the des
 
 AI is not a monolithic discipline but rather an umbrella term encompassing a range of interconnected subfields. Machine learning provides data-driven approaches that enable systems to improve performance through experience, while neural networks offer a biologically inspired framework for modeling complex, non-linear relationships. Deep learning extends these models through hierarchical representations, enabling significant advances in domains such as computer vision, speech recognition, and natural language processing. More recent developments, including generative AI and large language models, further expand the scope of AI by enabling systems to generate coherent and contextually relevant content.
 
-These subfields are highly interdependent and often overlap in both theory and application. A comprehensive understanding of artificial intelligence therefore requires not only familiarity with its individual components but also an appreciation of the relationships between them and their collective role in advancing intelligent systems. The following Venn diagram conveniently illustrates how these subfields overlap.
+These subfields are highly interdependent and often overlap in both theory and application. A comprehensive understanding of artificial intelligence therefore requires not only familiarity with its individual components but also an appreciation of the relationships between them and their collective role in advancing intelligent systems. 
+
+The following Venn diagram conveniently illustrates how these subfields overlap. In the explanations that follow, each field is discussed without considering its subfield. For instance, the explanation of Artificial Intelligence considers the field of AI without considering Machine Learning, hence, traditional AI.
 
 [![Preview](ai.png)](ai.pdf)
 
