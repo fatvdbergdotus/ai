@@ -20,8 +20,6 @@ This folder offers the following functionality:
 - [install_packages langchain.bat](install_packages%20langchain.bat) Install the Python packages for Ollama
 - [langchain-ollama-simple.ipynb](langchain-ollama-simple.ipynb) Asking Ollama for the capital of France and India
 - [ollama-llama3.2-vision-images.ipynb](ollama-llama3.2-vision-images.ipynb) Asking Ollama to describe image Logo.png
-- [ollama-strct-output-for-image.ipynb](ollama-strct-output-for-image.ipynb)
-- [ollama-strct-output.ipynb](ollama-strct-output.ipynb)
-- [paris.jpg](paris.jpg)
-- [readme.md](readme.md)
-- [run_llama3.py](run_llama3.py)
+- [ollama-strct-output-for-image.ipynb](ollama-strct-output-for-image.ipynb) Asking Ollama to describe image Paris.png in a structured way
+- [ollama-strct-output.ipynb](ollama-strct-output.ipynb) Asking Ollama to describe Belgium in a structured way
+- [run_llama3.py](run_llama3.py) Asking Ollama to write a story about a boy (very brief syntax)
