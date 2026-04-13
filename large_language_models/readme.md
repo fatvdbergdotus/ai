@@ -23,3 +23,5 @@ This folder offers the following functionality:
 - [ollama-strct-output-for-image.ipynb](ollama-strct-output-for-image.ipynb) Asking Ollama to describe image Paris.png in a structured way
 - [ollama-strct-output.ipynb](ollama-strct-output.ipynb) Asking Ollama to describe Belgium in a structured way
 - [run_llama3.py](run_llama3.py) Asking Ollama to write a story about a boy (very brief syntax)
+
+Note that the Python and Jupyter Notebooks frequently require Ollama to be installed. This is done using the included Batch files.
