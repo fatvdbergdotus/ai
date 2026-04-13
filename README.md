@@ -47,8 +47,10 @@ Deep learning has profoundly improved the performance of programs in many import
 ## Generative AI
 [Generative AI](generative_ai/) [14] is a branch of AI designed to create new content rather than simply analyze or classify existing data. It can produce text, images, music, video, and even code by learning patterns from vast amounts of training data. Instead of following fixed rules, generative AI models generate original outputs that resemble human-created content, making them powerful tools for creativity, automation, and problem-solving across many industries.
 
+Generative AI that is not a large language model (LLM) refers to systems that create new content in forms other than text, such as images, audio, video, or structured data. These models include diffusion models (used in tools like Stable Diffusion) that turn noise into images, Generative Adversarial Networks like StyleGAN that generate realistic visuals through competition between two networks, and other approaches like VAEs that learn patterns in data to produce new variations. Unlike LLMs, which predict sequences of words, these systems generate patterns such as pixels, sound waves, or 3D structures, enabling applications in art, music, video creation, scientific design, and more.
+
 ## Large Language Models
-[Large Language Models](large_language_models/) (LLMs) are a specialized type of generative AI focused on understanding and producing human language [15]. Trained on massive text datasets, they can generate coherent and context-aware responses, answer questions, summarize information, and assist with writing or coding tasks. By predicting the most likely sequence of words based on context, LLMs enable natural, conversational interactions between humans and machines.
+[Large Language Models](large_language_models/) are a specialized type of generative AI focused on understanding and producing human language [15]. Trained on massive text datasets, they can generate coherent and context-aware responses, answer questions, summarize information, and assist with writing or coding tasks. By predicting the most likely sequence of words based on context, LLMs enable natural, conversational interactions between humans and machines.
 
 ## Bibilography
 [1] Russell & Norvig (2021), pp. 1–4.
