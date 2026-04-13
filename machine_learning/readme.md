@@ -4,9 +4,9 @@
 
 ### Regression
 
-#### Linear
+#### Linear Regression
 
-#### Polynomial
+#### Polynomial Regression
 
 #### Support Vector Machines
 In machine learning, support vector machines [SVM](SVC.ipynb) (SVMs, also support vector networks) are supervised max-margin models with associated learning algorithms that analyze data for classification and regression analysis. Developed at AT&T Bell Laboratories, SVMs are one of the most studied models, being based on statistical learning frameworks of VC theory proposed by Vapnik (1982, 1995) and Chervonenkis (1974).
