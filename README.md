@@ -1,7 +1,7 @@
 # An Artificial intelligence Texonomy including Python Code
 ## By Freek van den Berg
 
-Artificial intelligence (AI) is a multidisciplinary field concerned with the design and development of computational systems capable of performing tasks that traditionally require human intelligence, including learning, reasoning, perception, and decision-making. Rooted in computer science, mathematics, psychology, and engineering, AI seeks to formalize intelligent behavior and implement it in machines through algorithmic and statistical methods.
+Artificial intelligence (AI) is a multidisciplinary field concerned with the design and development of computational systems capable of performing tasks that traditionally require **human intelligence**, including learning, reasoning, perception, and decision-making. Rooted in computer science, mathematics, psychology, and engineering, AI seeks to **formalize intelligent behavior** and implement it in machines through **algorithmic and statistical methods**.
 
 AI is not a monolithic discipline but rather an umbrella term encompassing a range of interconnected subfields. Machine learning provides data-driven approaches that enable systems to improve performance through experience, while neural networks offer a biologically inspired framework for modeling complex, non-linear relationships. Deep learning extends these models through hierarchical representations, enabling significant advances in domains such as computer vision, speech recognition, and natural language processing. More recent developments, including generative AI and large language models, further expand the scope of AI by enabling systems to generate coherent and contextually relevant content.
 
