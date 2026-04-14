@@ -54,6 +54,8 @@ Generative AI that is not a large language model (LLM) refers to systems that cr
 ## Large Language Models
 [Large Language Models](large_language_models/) are a specialized type of generative AI focused on understanding and producing human language [15]. Trained on massive text datasets, they can generate coherent and context-aware responses, answer questions, summarize information, and assist with writing or coding tasks. By predicting the most likely sequence of words based on context, LLMs enable natural, conversational interactions between humans and machines.
 
+See also: [Answering a simple question](large_language_models/ChatMessage.ipynb), [Return USA's 50 states](large_language_models/chat.ipynb), [Describe an image](large_language_models/ollama-llama3.2-vision-images.ipynb), [Describe an image in a structured way](large_language_models/ollama-strct-output-for-image.ipynb) and [Describe Belgium in a structured way](large_language_models/ollama-strct-output.ipynb).
+
 ## Bibilography
 [1] Russell & Norvig (2021), pp. 1–4.
 
