@@ -40,6 +40,7 @@ In **reinforcement learning**, the agent is rewarded for good responses and puni
 See also: [Linear/Logistic Regression](machine_learning/linear_logistic_regression.md),
 [Multiple Regression](machine_learning/multiple_regression.md),
 [Polynomial Regression](machine_learning/polynomial_regression.md),
+[Q-Learning](machine_learning/qlearning.md),
 [k-Means Clustering](machine_learning/kmeans.md), [Support Vector Machine](machine_learning/svm.md), [Principal Component Analysis](machine_learning/pca.md), [k-Nearest Neighbour](machine_learning/k_nearest_neighbour.md), [Decision Trees](machine_learning/decision_trees.md) and [Random Forest](machine_learning/random_forest.md). 
 
 ## Neural Networks
