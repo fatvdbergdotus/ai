@@ -80,6 +80,8 @@ For clarity, the following Venn Diagram illustrates how data science relates to 
 
 [![Preview](ai2.png)](ai2.pdf)
 
+See also: [Certified Data Science Practitioner Exam Preparation](data_science/cdsp_exam.md)
+
 ## Bibilography
 [1] Russell & Norvig (2021), pp. 1–4.
 
