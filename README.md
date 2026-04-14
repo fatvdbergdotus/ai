@@ -35,7 +35,7 @@ In **reinforcement learning**, the agent is rewarded for good responses and puni
 
 **Transfer learning** is when the knowledge gained from one problem is applied to a new problem [6]. 
 
-**Deep learning** (as discussed later) is a type of machine learning that runs inputs through biologically inspired artificial neural networks for all of these types of learning [10].
+**Deep learning** (as discussed later) is a type of machine learning that runs inputs through **biologically** inspired artificial neural networks for all of these types of learning [10].
 
 See also: [Linear/Logistic Regression](machine_learning/linear_logistic_regression.md),
 [Multiple Regression](machine_learning/multiple_regression.md),
@@ -44,11 +44,11 @@ See also: [Linear/Logistic Regression](machine_learning/linear_logistic_regressi
 [k-Means Clustering](machine_learning/kmeans.md), [Support Vector Machine](machine_learning/svm.md), [Principal Component Analysis](machine_learning/pca.md), [k-Nearest Neighbour](machine_learning/k_nearest_neighbour.md), [Decision Trees](machine_learning/decision_trees.md) and [Random Forest](machine_learning/random_forest.md). 
 
 ## Neural Networks
-An artificial [neural network](neural_networks/) is based on a collection of nodes also known as artificial neurons, which loosely model the neurons in a biological brain. It is trained to recognise patterns; once trained, it can recognise those patterns in fresh data. There is an input, at least one hidden layer of nodes, and an output. Each node applies a function and once the weight crosses its specified threshold, the data is transmitted to the next layer. A network is typically called a deep neural network if it has at least 2 hidden layers [8].
+An artificial [neural network](neural_networks/) is based on a **collection of nodes** also known as artificial **neurons**, which loosely model the neurons in a biological brain. It is trained to recognise patterns; once trained, it can recognise those patterns in fresh data. There is an **input**, at least one **hidden layer of nodes**, and an **output**. Each node applies a function and once the weight crosses its specified threshold, the data is transmitted to the next layer. A network is typically called a deep neural network if it has at least two hidden layers [8].
 
-Learning algorithms for neural networks use local search to choose the weights that will get the right output for each input during training. The most common training technique is the backpropagation algorithm [9]. Neural networks learn to model complex relationships between inputs and outputs and find patterns in data. In theory, a neural network can learn any function.
+Learning algorithms for neural networks use local search to choose the weights that will get the right output for each input during training. The most common training technique is the **backpropagation** algorithm [9]. Neural networks learn to model complex relationships between inputs and outputs and find patterns in data. In theory, a neural network can learn any function.
 
-See also: [Boltzmann Neural Networks](neural_networks/boltzmann.md) and [Multilayer Perceptron](neural_networks/mlp.md).
+See also: [Backpropagation](neural_networks/bp.md), [Boltzmann Neural Networks](neural_networks/boltzmann.md) and [Multilayer Perceptron](neural_networks/mlp.md).
 
 ## Deep Learning
 [Deep learning](deep_learning/) uses several layers of neurons between the network's inputs and outputs [10]. The multiple layers can progressively extract higher-level features from the raw input. For example, in image processing, lower layers may identify edges, while higher layers may identify the concepts relevant to a human such as digits, letters, or faces [11].
