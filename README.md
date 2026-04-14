@@ -26,9 +26,9 @@ See also: [Knowledge Representation](artificial_intelligence/knowledge_represent
 ## Machine Learning
 [Machine learning](machine_learning/) is the study of programs that can improve their performance on a given task automatically [2].
 
-There are several kinds of machine learning. Unsupervised learning analyzes a stream of data and finds patterns and makes predictions without any other guidance [3]. 
+There are several kinds of machine learning. Unsupervised learning, or clustering, analyzes a stream of data and finds patterns and makes predictions without any other guidance [3]. 
 
-Supervised learning requires labeling the training data with the expected answers, and comes in two main varieties: (i) classification where the program must learn to predict what category the input belongs in [4]; and, (ii) regression where the program must deduce a numeric function based on numeric input [4].
+Supervised learning, or classification, requires labeling the training data with the expected answers, and comes in two main varieties: (i) classification where the program must learn to predict what category the input belongs in [4]; and, (ii) regression where the program must deduce a numeric function based on numeric input [4].
 
 In reinforcement learning, the agent is rewarded for good responses and punished for bad ones. The agent learns to choose responses that are classified as "good" [5]. 
 
