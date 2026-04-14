@@ -43,10 +43,14 @@ An artificial [neural network](neural_networks/) is based on a collection of nod
 
 Learning algorithms for neural networks use local search to choose the weights that will get the right output for each input during training. The most common training technique is the backpropagation algorithm [9]. Neural networks learn to model complex relationships between inputs and outputs and find patterns in data. In theory, a neural network can learn any function.
 
+See also: [Boltzmann Neural Networks](neural_networks/boltzmann.md) and [MLP](neural_networks/mlp.md).
+
 ## Deep Learning
 [Deep learning](deep_learning/) uses several layers of neurons between the network's inputs and outputs [10]. The multiple layers can progressively extract higher-level features from the raw input. For example, in image processing, lower layers may identify edges, while higher layers may identify the concepts relevant to a human such as digits, letters, or faces [11].
 
 Deep learning has profoundly improved the performance of programs in many important subfields of AI, including computer vision, speech recognition, natural language processing, image classification [12]. The reason that deep learning performs so well in so many applications is not known as of 2021 [13]. The sudden success of deep learning in the 2010s did not occur because of some new discovery or theoretical breakthrough but because of two factors: (i) the incredible increase in computer power including the hundred-fold increase in speed by switching to GPUs; and, (ii) the availability of vast amounts of training data, especially the giant curated datasets used for benchmark testing.
+
+See also: [Convolutional Neural Network](deep_learning/cnn.md), [Recurrent Neural Network](deep_learning/rnn.md), [Generative Adversarial Network](deep_learning/gan.md) and [Deep Belief Network](deep_learning/dbn.md).
 
 ## Generative AI
 [Generative AI](generative_ai/) [14] is a branch of AI designed to create new content rather than simply analyze or classify existing data. It can produce text, images, music, video, and even code by learning patterns from vast amounts of training data. Instead of following fixed rules, generative AI models generate original outputs that resemble human-created content, making them powerful tools for creativity, automation, and problem-solving across many industries.
