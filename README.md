@@ -57,6 +57,8 @@ See also: [Convolutional Neural Network](deep_learning/cnn.md), [Recurrent Neura
 
 Generative AI that is not a large language model (LLM) refers to systems that create new content in forms other than text, such as images, audio, video, or structured data. These models include diffusion models (used in tools like Stable Diffusion) that turn noise into images, Generative Adversarial Networks like StyleGAN that generate realistic visuals through competition between two networks, and other approaches like VAEs that learn patterns in data to produce new variations. Unlike LLMs, which predict sequences of words, these systems generate patterns such as pixels, sound waves, or 3D structures, enabling applications in art, music, video creation, scientific design, and more.
 
+See also: [Generative Adversarial Networks](generative_ai/gan.md), [Variational Autoencoders](generative_ai/vae.md) and [Diffusion models](generative_ai/dm.md).
+
 ## Large Language Models
 [Large Language Models](large_language_models/) are a specialized type of generative AI focused on understanding and producing human language [15]. Trained on massive text datasets, they can generate coherent and context-aware responses, answer questions, summarize information, and assist with writing or coding tasks. By predicting the most likely sequence of words based on context, LLMs enable natural, conversational interactions between humans and machines.
 
