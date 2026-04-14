@@ -7,4 +7,4 @@ The support vector clustering algorithm, created by Hava Siegelmann and Vladimir
 
 The popularity of SVMs is likely due to their amenability to theoretical analysis, and their flexibility in being applied to a wide variety of tasks, including structured prediction problems. It is not clear that SVMs have better predictive performance than other linear models, such as logistic regression and linear regression.
 
-Related Python: [SVM](SVC.ipynb)
+Related Python: [SVM](/python/SVC.ipynb)
