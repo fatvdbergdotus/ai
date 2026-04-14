@@ -76,7 +76,7 @@ Data science is an interdisciplinary field that focuses on extracting meaningful
 
 The following Venn Diagram illustrates how it relates to the (sub)fields that have been mentioned before.
 
-[![Preview](ai.png)](ai.pdf)
+[![Preview](ai2.png)](ai2.pdf)
 
 ## Bibilography
 [1] Russell & Norvig (2021), pp. 1–4.
