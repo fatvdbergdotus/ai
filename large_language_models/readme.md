@@ -11,7 +11,7 @@ The following LLMs of Ollama can be executed offline. Running large language mod
 - Compliance & Regulatory Benefits
 
 ## Functionality offered here
-This folder offers the following functionality:
+LLMs include the following functionality:
 - [ChatMessage.ipynb](ChatMessage.ipynb) A helpfull assistant answers how the prime minister of India is.
 - [chat.ipynb](chat.ipynb) A chatbot returns the capital and 50 states of the USA, both at once and streaming.
 - [docker_run.bat](docker_run.bat) The Docker command to run Ollama. Note that Docker needs to be running
