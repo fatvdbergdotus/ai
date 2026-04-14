@@ -43,7 +43,7 @@ An artificial [neural network](neural_networks/) is based on a collection of nod
 
 Learning algorithms for neural networks use local search to choose the weights that will get the right output for each input during training. The most common training technique is the backpropagation algorithm [9]. Neural networks learn to model complex relationships between inputs and outputs and find patterns in data. In theory, a neural network can learn any function.
 
-See also: [Boltzmann Neural Networks](neural_networks/boltzmann.md) and [MLP](neural_networks/mlp.md).
+See also: [Boltzmann Neural Networks](neural_networks/boltzmann.md) and [Multilayer Perceptron](neural_networks/mlp.md).
 
 ## Deep Learning
 [Deep learning](deep_learning/) uses several layers of neurons between the network's inputs and outputs [10]. The multiple layers can progressively extract higher-level features from the raw input. For example, in image processing, lower layers may identify edges, while higher layers may identify the concepts relevant to a human such as digits, letters, or faces [11].
