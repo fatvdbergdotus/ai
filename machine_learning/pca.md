@@ -1,4 +1,4 @@
 # Principal Component Analysis
 Principal Component Analysis (PCA) is a widely used dimensionality reduction technique in Machine Learning that transforms high-dimensional data into a smaller set of uncorrelated variables called principal components while preserving as much variance as possible. It works by identifying directions (components) along which the data varies the most and projecting the original data onto these directions, effectively simplifying complex datasets without losing significant information. For example, in image processing, PCA can reduce the number of features (pixels) needed to represent an image while retaining its essential structure, and in finance, it can be used to identify key factors influencing stock price movements. By reducing dimensionality, PCA helps improve computational efficiency, reduce noise, and enhance visualization, making it an essential tool for preprocessing and exploratory data analysis in many real-world applications.
 
-Python code: [PCA](/python/pca.ypynb)
+Python code: [PCA](/python/pca.ipynb)
