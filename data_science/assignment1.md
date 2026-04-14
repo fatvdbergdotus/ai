@@ -1,0 +1,6 @@
+# Assignment 1
+This assignment involves building a machine learning model to predict whether a mammogram-detected mass is benign or malignant using a public dataset of 961 cases. The dataset includes features such as patient age, mass shape, margin, and density, while the BI-RADS assessment is excluded since it reflects diagnostic confidence rather than predictive value. The goal is to use these features to predict the “severity” (benign or malignant). Because medical misdiagnoses—especially false positives—can lead to unnecessary stress and procedures, improving prediction accuracy through machine learning has real-world importance.
+
+To complete the project, you must clean and prepare the dataset (handling missing values and potential outliers), then apply multiple supervised learning algorithms: Decision Tree, Random Forest, K-Nearest Neighbors, Naive Bayes, Support Vector Machine, and Logistic Regression. Each model should be evaluated using 10-fold cross-validation, and you are encouraged to tune hyperparameters to improve performance. The benchmark is around 80% accuracy, and the objective is to determine which method performs best while demonstrating proper data preprocessing, model training, and evaluation techniques.
+
+Python code: [Code](/python/FinalProjectAssignment.ipynb)
