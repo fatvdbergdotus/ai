@@ -3,11 +3,10 @@
 
 **Artificial intelligence** (AI) is a multidisciplinary field concerned with the design and development of computational systems capable of performing tasks that traditionally require **human intelligence**, including learning, reasoning, perception, and decision-making. Rooted in computer science, mathematics, psychology, and engineering, AI seeks to **formalize intelligent behavior** and implement it in machines through **algorithmic and statistical methods**.
 
-AI is not a monolithic discipline but rather an umbrella term encompassing a range of **interconnected subfields**. Machine learning provides data-driven approaches that enable systems to improve performance through experience, while neural networks offer a biologically inspired framework for modeling complex, non-linear relationships. Deep learning extends these models through hierarchical representations, enabling significant advances in domains such as computer vision, speech recognition, and natural language processing. More recent developments, including generative AI and large language models, further expand the scope of AI by enabling systems to generate coherent and contextually relevant content.
+AI is not a monolithic discipline but rather an umbrella term encompassing a range of **interconnected subfields**. **Machine learning** provides data-driven approaches that enable systems to improve performance through experience, while **neural networks** offer a biologically inspired framework for modeling complex, non-linear relationships. **Deep learning** extends these models through hierarchical representations, enabling significant advances in domains such as computer vision, speech recognition, and natural language processing. More recent developments, including **generative AI** and **large language models**, further expand the scope of AI by enabling systems to generate coherent and contextually relevant content.
 
 These subfields are highly interdependent and often overlap in both theory and application. A comprehensive understanding of AI therefore requires not only familiarity with its individual components but also an appreciation of the relationships between them and their collective role in advancing intelligent systems. 
-
-The following Venn diagram conveniently illustrates how these subfields overlap. In the explanations that follow, each field is discussed without considering its direct subfield. For instance, the explanation of Artificial Intelligence considers the field of AI without considering Machine Learning, that is, traditional AI.
+The following Venn diagram conveniently illustrates how these subfields **overlap**. In the explanations that follow, each field is discussed without considering its direct subfield. For instance, the explanation of Artificial Intelligence considers the field of AI without considering Machine Learning, that is, traditional AI.
 
 [![Preview](ai.png)](ai.pdf)
 
@@ -19,24 +18,24 @@ At the core of traditional AI is the idea that **human knowledge** can be **enco
 
 Traditional AI systems are typically **deterministic** and **interpretable**, meaning their reasoning processes can be traced and understood step by step. This makes them particularly useful in domains where transparency and explainability are important, such as expert systems used in medical diagnosis or legal reasoning.
 
-Traditional AI is **applied** in several areas that rely on rule-based reasoning and logical problem-solving. It is widely used in expert systems to replicate human expertise in fields such as medicine, finance, and engineering troubleshooting. Another important application is in early natural language processing systems, including rule-based chatbots and grammar checkers. Traditional AI is also used in planning and scheduling systems, where it helps determine sequences of actions for tasks like airline scheduling and project management. In game playing, it enables computers to make decisions in structured environments such as chess using algorithms like minimax. It plays a key role in knowledge representation and reasoning by organizing information through logic, semantic networks, and ontologies. Additionally, traditional AI is applied in robotics for rule-based control and navigation, in theorem proving for solving mathematical problems and verifying software, and in constraint satisfaction problems such as timetabling, map coloring, and puzzle solving.
+Traditional AI is **applied** in several areas that rely on rule-based reasoning and logical problem-solving. It is widely used in **expert systems** to replicate human expertise in fields such as medicine, finance, and engineering troubleshooting. Another important application is in early natural language processing systems, including rule-based chatbots and grammar checkers. Traditional AI is also used in **planning** and **scheduling systems**, where it helps determine sequences of actions for tasks like airline scheduling and project management. In game playing, it enables computers to make decisions in structured environments such as **chess** using algorithms like minimax. It plays a key role in knowledge representation and reasoning by organizing information through logic, semantic networks, and ontologies. Additionally, traditional AI is applied in robotics for rule-based control and navigation, in theorem proving for solving mathematical problems and verifying software, and in constraint satisfaction problems such as timetabling, map coloring, and puzzle solving.
 
-However, traditional AI has significant limitations. It struggles with uncertainty, ambiguity, and the complexity of real-world environments, as it requires exhaustive manual knowledge engineering and cannot easily adapt to new or unseen data. These challenges led to the rise of data-driven approaches, particularly machine learning, which can automatically learn patterns from data rather than relying solely on predefined rules.
+However, traditional AI has significant limitations. It struggles with **uncertainty**, **ambiguity**, and the **complexity** of real-world environments, as it requires exhaustive manual knowledge engineering and cannot easily adapt to new or unseen data. These challenges led to the rise of data-driven approaches, particularly machine learning, which can automatically learn patterns from data rather than relying solely on predefined rules.
 
 See also: [Knowledge Representation](artificial_intelligence/knowledge_representation.md), [Natural Language Processing](artificial_intelligence/natural_language_processing.md), [Visual Perception](artificial_intelligence/visual_perception.md), [Intelligent Robot](artificial_intelligence/intelligent_robot.md) and [Automatic Reasoning](artificial_intelligence/automatic_reasoning.md).
 
 ## Machine Learning
 [Machine learning](machine_learning/) is the study of programs that can improve their performance on a given task automatically [2].
 
-There are several kinds of machine learning. Unsupervised learning, or clustering, analyzes a stream of data and finds patterns and makes predictions without any other guidance [3]. 
+There are several kinds of machine learning. **Unsupervised learning**, or clustering, analyzes a stream of data and finds patterns and makes predictions without any other guidance [3]. 
 
-Supervised learning, or classification, requires labeling the training data with the expected answers, and comes in two main varieties: (i) classification where the program must learn to predict what category the input belongs in [4]; and, (ii) regression where the program must deduce a numeric function based on numeric input [4].
+**Supervised learning**, or classification, requires labeling the training data with the expected answers, and comes in two main varieties: (i) classification where the program must learn to predict what category the input belongs in [4]; and, (ii) regression where the program must deduce a numeric function based on numeric input [4].
 
-In reinforcement learning, the agent is rewarded for good responses and punished for bad ones. The agent learns to choose responses that are classified as "good" [5]. 
+In **reinforcement learning**, the agent is rewarded for good responses and punished for bad ones. The agent learns to choose responses that are classified as "good" [5]. 
 
-Transfer learning is when the knowledge gained from one problem is applied to a new problem [6]. 
+**Transfer learning** is when the knowledge gained from one problem is applied to a new problem [6]. 
 
-Deep learning (as discussed later) is a type of machine learning that runs inputs through biologically inspired artificial neural networks for all of these types of learning [10].
+**Deep learning** (as discussed later) is a type of machine learning that runs inputs through biologically inspired artificial neural networks for all of these types of learning [10].
 
 See also: [Linear/Logistic Regression](machine_learning/linear_logistic_regression.md),
 [Multiple Regression](machine_learning/multiple_regression.md),
