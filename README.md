@@ -71,6 +71,13 @@ LLMs can run offline using tools like Ollama, which allows users to download and
 
 See also: [Answering a simple question](large_language_models/ChatMessage.ipynb), [Return USA's 50 states](large_language_models/chat.ipynb), [Describe an image](large_language_models/ollama-llama3.2-vision-images.ipynb), [Describe an image in a structured way](large_language_models/ollama-strct-output-for-image.ipynb) and [Describe Belgium in a structured way](large_language_models/ollama-strct-output.ipynb).
 
+## Data Science
+Data science is an interdisciplinary field that focuses on extracting meaningful insights, patterns, and knowledge from structured and unstructured data by combining techniques from statistics, mathematics, programming, and domain expertise, and it plays a central role in modern decision-making across industries such as healthcare, finance, marketing, and technology. At its core, data science involves a full lifecycle that begins with data collection from various sources (databases, sensors, APIs), followed by data cleaning and preprocessing to ensure quality and consistency, and then exploratory data analysis to uncover trends and relationships. Advanced methods such as machine learning and deep learning are often applied to build predictive and prescriptive models, enabling systems like ChatGPT to perform complex tasks such as natural language understanding. Data scientists also use data visualization tools to communicate findings effectively, helping stakeholders make informed decisions. Ultimately, data science bridges the gap between raw data and actionable intelligence, turning vast amounts of information into valuable insights that drive innovation, efficiency, and strategic growth in an increasingly data-driven world. 
+
+The following Venn Diagram illustrates how it relates to the (sub)fields that have been mentioned before.
+
+[![Preview](ai.png)](ai.pdf)
+
 ## Bibilography
 [1] Russell & Norvig (2021), pp. 1–4.
 
