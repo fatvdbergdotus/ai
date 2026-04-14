@@ -36,7 +36,9 @@ Transfer learning is when the knowledge gained from one problem is applied to a 
 
 Deep learning (as discussed later) is a type of machine learning that runs inputs through biologically inspired artificial neural networks for all of these types of learning [10].
 
-See also: [Linear/Logistic Regression](machine_learning/linear_logistic_regression.md), 
+See also: [Linear/Logistic Regression](machine_learning/linear_logistic_regression.md),
+[Multiple Regression](machine_learning/multiple_regression.md),
+[Polynomial Regression](machine_learning/polynomial_regression.md),
 [k-Means](machine_learning/kmeans.md), [Support Vector Machine](machine_learning/svm.md), [Principal Component Analysis](machine_learning/pca.md), [k-Nearest Neighbour](machine_learning/k_nearest_neighbour.md), [Decision Trees](machine_learning/decision_trees.md) and [Random Forest](machine_learning/random_forest.md). 
 
 ## Neural Networks
