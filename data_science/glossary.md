@@ -6,3 +6,6 @@
   - df.info(): Provides information about the DataFrame such as data types and non-null counts.
   - df.merge(): Merges dataframes on columns
   - df.concact(): Combines dataframes by concatenating them along an axis
+- **Skewness**: Skewness describes how asymmetrical a dataset is around its mean (average). It tells you whether the data leans more to the left or the right.
+- **Standardize features**: Standardizing features means scaling data so each feature has a mean of 0 and a standard deviation of 1​. This makes all features comparable and helps many machine learning models perform better.
+- **Variance**: Variance measures how spread out the values in a dataset are from the mean (average). It tells you whether the data points are close together or widely dispersed.
