@@ -57,9 +57,10 @@ This page contains a glossary of common Data Science terms, as follows.
   - df.merge(): Merges dataframes on columns
   - df.concact(): Combines dataframes by concatenating them along an axis
 - **Plots** Different plots serve different purposes:
-  - **Scatter plot**: A scatter plot is a graph used to show the relationship between two numerical variables by plotting data points on an x–y axis.
-  - **Heatmap** A heatmap is a visualization that shows values using colors, making it easy to spot patterns, trends, and relationships in data. A correlation heatmap helps you quickly understand how variables relate to each other, using color to reveal patterns that are hard to see in raw numbers.
   - **Box plot** A box plot (or box-and-whisker plot) is a graph that shows the distribution of data using five key values: minimum, Q1 (25%), median, Q3 (75%), and maximum.
+  - **Heatmap** A heatmap is a visualization that shows values using colors, making it easy to spot patterns, trends, and relationships in data. A correlation heatmap helps you quickly understand how variables relate to each other, using color to reveal patterns that are hard to see in raw numbers.
+  - **Histogram** is a graph that shows the distribution of numerical data by grouping values into ranges called bins. It can be used to find the skewness and outliers of data.
+  - **Scatter plot**: A scatter plot is a graph used to show the relationship between two numerical variables by plotting data points on an x–y axis.
 - **Skewness**: Skewness describes how asymmetrical a dataset is around its mean (average). It tells you whether the data leans more to the left or the right.
 - **Standardize features**, or z-score normalization, means scaling data so each feature has a mean of 0 and a standard deviation of 1​. This makes all features comparable and helps many machine learning models perform better.
 - **TensorBoard** is a visualization tool commonly used with TensorFlow to monitor and analyze machine learning experiments. It lets you track metrics like loss and accuracy, visualize model graphs, and compare different training runs, helping you better understand and debug your models.
