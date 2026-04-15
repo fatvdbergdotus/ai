@@ -1,5 +1,7 @@
 # Data Science Glossary
--
+This page contains a glossary of common Data Science terms, as follows.
+- **Deduplicating data** means identifying and removing duplicate records so each entry in your dataset is unique.
+- **Normalization (min-max)**: rescales data to a fixed range (usually 0 to 1) → all values fall within that range.
 - **Outliers**: Outliers are data points that are significantly different from the rest of the values in a dataset. They “stand out” because they are much higher or lower than most other observations.
 - **Pandas DataFrame functions**: Most common functions for a Pandas DataFrame
   - df.describe(): Method specifically designed to generate descriptive statistics for numerical columns in a Pandas DataFrame such as mean, SD, quartiles.
