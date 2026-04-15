@@ -1,5 +1,6 @@
 # Data Science Glossary
 This page contains a glossary of common Data Science terms, as follows.
+- **Data selection** is the process of choosing the most relevant and appropriate data from available sources to use for analysis or training a model. It involves filtering out irrelevant, noisy, or biased data and ensuring the selected dataset is representative of the problem, which helps improve model accuracy and reliability.
 - **Deduplicating data** means identifying and removing duplicate records so each entry in your dataset is unique.
 - **Jupyter Notebook** is an open-source tool that lets you write and run code in an interactive, document-style format—combining code, text, and visuals in one place.
 - **MLflow** is an open-source platform used to manage the entire machine learning lifecycle, from experiments to deployment.
