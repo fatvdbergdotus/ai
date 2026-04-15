@@ -9,6 +9,9 @@ This page contains a glossary of common Data Science terms, as follows.
   - **Authenticity** refers to whether data is genuine, trustworthy, and comes from a reliable source, without being altered or tampered with. Authentic data can be verified and trusted for analysis, ensuring that decisions are based on real and credible information.
   - **Confidentialitiy** refers to protecting data from unauthorized access or disclosure, ensuring that only authorized individuals can view or use it. It is maintained through measures like encryption, access controls, and secure storage to keep sensitive information private and secure.
   - **Consistency** refers to ensuring that data is uniform, reliable, and the same across different datasets or systems, without contradictions or mismatches. Consistent data maintains the same values and format over time, which helps ensure accurate analysis and trustworthy results.
+  - **Correctness** refers to how accurately data represents the real-world values it is supposed to describe, without errors or mistakes. Correct data is valid, precise, and free from inaccuracies, ensuring reliable analysis and trustworthy results.
+  - **Completeness** refers to whether a dataset has all required values present, with minimal or no missing data. A complete dataset includes all necessary fields and records, ensuring analyses and models are based on full and reliable information.
+  - **Currency** refers to how up-to-data and relevant the data is.
   - **Integrity** covers the accuracy and consistency of data.
 - **Deduplicating data** means identifying and removing duplicate records so each entry in your dataset is unique.
 - **Enconding techniques**
