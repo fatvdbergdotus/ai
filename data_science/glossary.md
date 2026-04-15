@@ -5,7 +5,9 @@ This page contains a glossary of common Data Science terms, as follows.
 ## B
 - **Backward feature elimination** is a feature selection method that starts with all features and then removes them one by one, each time dropping the feature that has the least impact on model performance. This process continues until removing more features would significantly worsen the model, resulting in a simpler model with only the most important variables.
 - **Binning** converts continous numerical features into discrete categorical features by grouping values in bins.
+## C
 - **Customer churn prediction** is the process of using data and machine learning to identify which customers are likely to stop using a product or service. By analyzing factors like usage behavior, purchase history, and customer interactions, models can predict churn risk, allowing businesses to take proactive actions (e.g., offers or support) to retain customers and reduce losses. A key metric is achieving a specific precision rate on a validation dataset, minimizing false positives.
+## D
 - **Data architectures**
   - **Data fabric** is an architecture that provides a unified and integrated view of **data across multiple systems and locations** (cloud, on-premise, databases, data lakes, etc.). It uses automation and metadata to connect, manage, and access data seamlessly, making it easier for organizations to use data consistently for analytics and decision-making.
   - **Data lake** is a storage system that holds **large amounts of raw data in its original format** (structured, semi-structured, and unstructured) until it is needed. Unlike traditional databases, data lakes allow flexible storage and are commonly used for big data analytics, machine learning, and processing diverse data types.
