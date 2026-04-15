@@ -20,7 +20,7 @@ This page contains a glossary of common Data Science terms, as follows.
   - df.concact(): Combines dataframes by concatenating them along an axis
 - **Plots** Different plots serve different purposes:
   - **Scatter plot**: A scatter plot is a graph used to show the relationship between two numerical variables by plotting data points on an x–y axis.
-  - **Heatmap** A heatmap is a visualization that shows values using colors, making it easy to spot patterns, trends, and relationships in data.
+  - **Heatmap** A heatmap is a visualization that shows values using colors, making it easy to spot patterns, trends, and relationships in data. A correlation heatmap helps you quickly understand how variables relate to each other, using color to reveal patterns that are hard to see in raw numbers.
   - **Box plot** A box plot (or box-and-whisker plot) is a graph that shows the distribution of data using five key values: minimum, Q1 (25%), median, Q3 (75%), and maximum.
 - **Skewness**: Skewness describes how asymmetrical a dataset is around its mean (average). It tells you whether the data leans more to the left or the right.
 - **Standardize features**: Standardizing features means scaling data so each feature has a mean of 0 and a standard deviation of 1​. This makes all features comparable and helps many machine learning models perform better.
