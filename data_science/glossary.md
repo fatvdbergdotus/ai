@@ -31,7 +31,7 @@ This page contains a glossary of common Data Science terms, as follows.
 - **MLflow** is an open-source platform used to manage the entire machine learning lifecycle, from experiments to deployment.
 - **Normalization (min-max)**: rescales data to a fixed range (usually 0 to 1) → all values fall within that range.
 - **Outliers**: Outliers are data points that are significantly different from the rest of the values in a dataset. They “stand out” because they are much higher or lower than most other observations.
-- **Pandas DataFrame functions**: Most common functions for a Pandas DataFrame
+- **Pandas DataFrame** is a data structure that allows manipulation and analysis of tabular data. Its most common functions for a Pandas DataFrame are:
   - df.describe(): Method specifically designed to generate descriptive statistics for numerical columns in a Pandas DataFrame such as mean, SD, quartiles.
   - df.info(): Provides information about the DataFrame such as data types and non-null counts.
   - df.merge(): Merges dataframes on columns
@@ -46,3 +46,4 @@ This page contains a glossary of common Data Science terms, as follows.
 - **Terraform** is an open-source tool that lets you define and manage infrastructure (like servers, databases, and networks) using code instead of manual setup. By writing configurations in a declarative language (HCL), you can automatically create, update, and version-control resources across cloud providers, making infrastructure more consistent, reproducible, and easy to manage.
 - **Using SHAP values** means interpreting a model by measuring how much each feature contributes to a prediction. SHAP assigns an importance value to every feature for each prediction, showing whether it pushes the prediction higher or lower. This helps explain complex models, understand feature impact, and make results more transparent and trustworthy.
 - **Variance**: Variance measures how spread out the values in a dataset are from the mean (average). It tells you whether the data points are close together or widely dispersed.
+- **Volentary disclosure** is the act of willingly providing information without being legally required to do so. In data contexts, it means individuals or organizations choose to share certain data (e.g., preferences or feedback) on their own, often to improve services, transparency, or trust. To ensure appropriate disclosure and informed consent controls in data science projects, it is necesarry to provide clear, transparant and accessible information about data usage.
