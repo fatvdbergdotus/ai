@@ -23,7 +23,7 @@ This page contains a glossary of common Data Science terms, as follows.
 - **Evaluating classification models**
   - **Accuracy** measures overall correctness (TP+TN)/(TP+TN+FP+FN).
   - **Precision** focuses on accuracy of positive predictions (TP)/(TP+FP).
-  - **Recall** (sensitivity) measures coverage of actual positives (TP)/(TP+FN)
+  - **Recall** (sensitivity) measures coverage of actual positives (TP)/(TP+FN).
   - **F1 Score** balances precision and recall, serving as a reliable metric for imbalanced datasets (2FP)/(F+P). 
 - **Feature types**
   - **Categorical** data is data that represents labels or groups rather than numerical values. The values are categories (e.g., names, types, or classes) and are used to classify information.
@@ -35,6 +35,11 @@ This page contains a glossary of common Data Science terms, as follows.
 - **Jupyter Notebook** is an open-source tool that lets you write and run code in an interactive, document-style format—combining code, text, and visuals in one place.
 - **Low variance filter** is a feature selection technique that removes variables with little to no variability across the dataset. Features that barely change (e.g., almost all values are the same) don’t provide useful information for distinguishing between outcomes, so they can be safely dropped. This helps reduce noise, improve model performance, and speed up training.
 - **MLflow** is an open-source platform used to manage the entire machine learning lifecycle, from experiments to deployment.
+- **Models**
+  - **ARIMA** is a statistical model used for time series forecasting, meaning it predicts future values based on past data patterns. It combines three parts: AR (AutoRegressive) uses past values, I (Integrated) removes trends by differencing the data, and MA (Moving Average) models past errors. ARIMA is commonly used for forecasting things like sales, stock prices, or demand over time.
+  - **Linear Regression** is a statistical method used to model the relationship between a dependent variable and one or more independent variables by fitting a straight line to the data. The goal is to predict values by finding the best-fitting line that minimizes the error between predicted and actual values, and it’s widely used for prediction and understanding relationships between variables.
+  - **K-means** is an unsupervised machine learning algorithm used to group data into K clusters based on similarity. It works by assigning data points to the nearest cluster center (centroid), then updating the centroids iteratively until the clusters stabilize. The result is that similar data points are grouped together, making it useful for tasks like customer segmentation.
+  - **Naive Bayes** is a classification algorithm based on Bayes' Theorem, which predicts the probability of a class given input features. It assumes that all features are independent (the “naive” assumption), making it simple and fast. Despite this assumption, it performs well in tasks like spam detection and text classification.
 - **Normalization (min-max)**: rescales data to a fixed range (usually 0 to 1) → all values fall within that range.
 - **Outliers**: Outliers are data points that are significantly different from the rest of the values in a dataset. They “stand out” because they are much higher or lower than most other observations.
 - **Pandas DataFrame** is a data structure that allows manipulation and analysis of tabular data. Its most common functions for a Pandas DataFrame are:
