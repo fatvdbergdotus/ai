@@ -26,6 +26,7 @@ This page contains a glossary of common Data Science terms, as follows.
   - **Currency** refers to how up-to-data and relevant the data is.
   - **Integrity** covers the accuracy and consistency of data.
 - **Deduplicating data** means identifying and removing duplicate records so each entry in your dataset is unique.
+## E
 - **Enconding techniques**
   - **Binary encoding** is a technique that converts categorical variables into binary (0/1) representations using fewer columns than one-hot encoding. Each category is first assigned a number, which is then converted into binary form and split across multiple columns. This reduces dimensionality while still representing categorical information, making it more efficient for models with many categories.
   - **Feature encoding** is the process of converting categorical data into numerical form so machine learning models can use it. Since most models work with numbers, techniques like label encoding, one-hot encoding, binary encoding, and target encoding are used to represent categories in a meaningful way while preserving important information.
@@ -41,13 +42,21 @@ This page contains a glossary of common Data Science terms, as follows.
   - **Categorical** data is data that represents labels or groups rather than numerical values. The values are categories (e.g., names, types, or classes) and are used to classify information.
   - **Ordinal** data is a type of categorical data where the values have a meaningful order or ranking, but the differences between them are not necessarily equal.
   - **Numerical**, or quantitative data, consists of numbers that represent measurable quantities, where mathematical operations like addition and averaging make sense.
+## F
 - **Forward feature selection** is a step-by-step method for choosing the most useful features for a model. It starts with no features and adds one feature at a time, each time selecting the feature that improves model performance the most, until adding more features no longer helps. This helps build a simpler, more effective model by keeping only the most relevant variables.
+## G
 - **Gradient descent** is an optimization algorithm used to minimize a function (like a loss function) by iteratively adjusting parameters in the direction of the steepest decrease (negative gradient). Starting from an initial guess, it updates parameters step by step using a learning rate until the model reaches the lowest error, making it essential for training machine learning models like linear regression and neural networks.
 - **Grid search** is a method used to find the best model parameters by systematically trying all possible combinations from a predefined set of values and selecting the combination that gives the best performance (usually using cross-validation).
+## H
 - **High-correlation filtering** is a feature selection technique that removes features that are strongly correlated with each other, since they carry redundant information. Typically, you calculate a correlation matrix and, if two features exceed a threshold (e.g., 0.8 or 0.9), you keep one and drop the other. This helps reduce multicollinearity, simplify the model, and improve stability and interpretability.
 - **Hypothesis testing** is a statistical method used to determine whether there is enough evidence in data to support a claim, by comparing a null hypothesis (no effect) with an alternative hypothesis (some effect) using a sample of data; the sample size affects the reliability of the results, and a p-value is used to decide if the observed outcome is statistically significant or likely due to chance.
+## I
+## J
 - **Jupyter Notebook** is an open-source tool that lets you write and run code in an interactive, document-style format—combining code, text, and visuals in one place.
+## K
+## L
 - **Low variance filter** is a feature selection technique that removes variables with little to no variability across the dataset. Features that barely change (e.g., almost all values are the same) don’t provide useful information for distinguishing between outcomes, so they can be safely dropped. This helps reduce noise, improve model performance, and speed up training.
+## M
 - **MLflow** is an open-source platform used to manage the entire machine learning lifecycle, from experiments to deployment.
 - **Models**
   - **ARIMA** is a statistical model used for time series forecasting, meaning it predicts future values based on past data patterns. It combines three parts: AR (AutoRegressive) uses past values, I (Integrated) removes trends by differencing the data, and MA (Moving Average) models past errors. ARIMA is commonly used for forecasting things like sales, stock prices, or demand over time.
@@ -55,9 +64,12 @@ This page contains a glossary of common Data Science terms, as follows.
   - **K-means** is an unsupervised machine learning algorithm used to group data into K clusters based on similarity. It works by assigning data points to the nearest cluster center (centroid), then updating the centroids iteratively until the clusters stabilize. The result is that similar data points are grouped together, making it useful for tasks like customer segmentation.
   - **Naive Bayes** is a classification algorithm based on Bayes' Theorem, which predicts the probability of a class given input features. It assumes that all features are independent (the “naive” assumption), making it simple and fast. Despite this assumption, it performs well in tasks like spam detection and text classification.
   - **Random Forest** is an ensemble machine learning algorithm that builds multiple decision trees and combines their predictions to improve accuracy and reduce overfitting. Each tree is trained on a random subset of the data and features, and the final prediction is made by averaging (for regression) or majority voting (for classification), making it robust and effective for many tasks. A built-in feature is the importance measure, which calculates feature importance based on how much each feature contributes to reducing the impurity of the trees in the forest. This leads to a ranking of features based on their predictive power.
+## N
 - **Normalization (min-max)**, or min-max scaling, rescales data to a fixed range (usually 0 to 1) → all values fall within that range.
+## O
 - **Outliers**: Outliers are data points that are significantly different from the rest of the values in a dataset. They “stand out” because they are much higher or lower than most other observations.
 - **Overfitting** occurs when a model learns the training data too well, including noise and random fluctuations, causing it to perform very well on training data but poorly on new, unseen data. It usually happens when the model is too complex, and can be reduced using techniques like regularization, cross-validation, or simplifying the model.
+## P
 - **Pandas DataFrame** is a data structure that allows manipulation and analysis of tabular data. Its most common functions for a Pandas DataFrame are:
   - df.describe(): Method specifically designed to generate descriptive statistics for numerical columns in a Pandas DataFrame such as mean, SD, quartiles.
   - df.info(): Provides information about the DataFrame such as data types and non-null counts.
@@ -69,11 +81,21 @@ This page contains a glossary of common Data Science terms, as follows.
   - **Histogram** is a graph that shows the distribution of numerical data by grouping values into ranges called bins. It can be used to find the skewness and outliers of data.
   - **Partial Dependence Plot** is a visualization used to show how a single feature affects a machine learning model’s predictions, while averaging out the influence of all other features. It helps reveal whether the relationship between the feature and the prediction is positive, negative, or non-linear, making complex models easier to interpret.
   - **Scatter plot**: A scatter plot is a graph used to show the relationship between two numerical variables by plotting data points on an x–y axis.
+## Q
+## R
+## S
 - **Skewness**: Skewness describes how asymmetrical a dataset is around its mean (average). It tells you whether the data leans more to the left or the right.
 - **Standardize features**, or z-score normalization, means scaling data so each feature has a mean of 0 and a standard deviation of 1​. This makes all features comparable and helps many machine learning models perform better.
+## T
 - **TensorBoard** is a visualization tool commonly used with TensorFlow to monitor and analyze machine learning experiments. It lets you track metrics like loss and accuracy, visualize model graphs, and compare different training runs, helping you better understand and debug your models.
 - **Terraform** is an open-source tool that lets you define and manage infrastructure (like servers, databases, and networks) using code instead of manual setup. By writing configurations in a declarative language (HCL), you can automatically create, update, and version-control resources across cloud providers, making infrastructure more consistent, reproducible, and easy to manage.
+## U
 - **Underfitting** occurs when a model is too simple to capture the underlying patterns in the data, resulting in poor performance on both training and new data. It typically happens when the model has low complexity, not enough features, or insufficient training, leading to high error and inability to learn important relationships.
 - **Using SHAP values** means interpreting a model by measuring how much each feature contributes to a prediction. SHAP assigns an importance value to every feature for each prediction, showing whether it pushes the prediction higher or lower. This helps explain complex models, understand feature impact, and make results more transparent and trustworthy.
+## V
 - **Variance**: Variance measures how spread out the values in a dataset are from the mean (average). It tells you whether the data points are close together or widely dispersed.
 - **Volentary disclosure** is the act of willingly providing information without being legally required to do so. In data contexts, it means individuals or organizations choose to share certain data (e.g., preferences or feedback) on their own, often to improve services, transparency, or trust. To ensure appropriate disclosure and informed consent controls in data science projects, it is necesarry to provide clear, transparant and accessible information about data usage.
+## W
+## X
+## Y
+## Z
