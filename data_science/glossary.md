@@ -35,9 +35,9 @@ This page contains a glossary of common Data Science terms, as follows.
   - **Target encoding** is a technique where categorical values are replaced with the average of the target variable for each category. For example, if a category “A” has a higher average target value than “B,” it gets a higher encoded number. This helps capture the relationship between categories and the target, but must be used carefully to avoid overfitting (often with cross-validation or smoothing). Mostly used when there are many categories.
 - **Evaluating classification models**
   - **Accuracy** measures overall correctness (TP+TN)/(TP+TN+FP+FN).
-  - **Precision** focuses on accuracy of positive predictions (TP)/(TP+FP).
-  - **Recall** (sensitivity) measures coverage of actual positives (TP)/(TP+FN).
-  - **F1 Score** balances precision and recall, serving as a reliable metric for imbalanced datasets (2FP)/(F+P). 
+  - **Precision** focuses on accuracy of positive predictions (TP)/(TP+FP). Precision is most useful when the cost of false positives is high.
+  - **Recall** (sensitivity) measures coverage of actual positives (TP)/(TP+FN). Recall is most useful when the cost of false negatives is high
+  - **F1 Score** balances precision and recall, serving as a reliable metric for imbalanced datasets (2FP)/(F+P). Maximizing the F1 score means optimizing a model to achieve the best balance between precision and recall. 
 ## F
 - **Feature types**
   - **Categorical** data is data that represents labels or groups rather than numerical values. The values are categories (e.g., names, types, or classes) and are used to classify information.
