@@ -38,11 +38,11 @@ This page contains a glossary of common Data Science terms, as follows.
   - **Precision** focuses on accuracy of positive predictions (TP)/(TP+FP).
   - **Recall** (sensitivity) measures coverage of actual positives (TP)/(TP+FN).
   - **F1 Score** balances precision and recall, serving as a reliable metric for imbalanced datasets (2FP)/(F+P). 
+## F
 - **Feature types**
   - **Categorical** data is data that represents labels or groups rather than numerical values. The values are categories (e.g., names, types, or classes) and are used to classify information.
   - **Ordinal** data is a type of categorical data where the values have a meaningful order or ranking, but the differences between them are not necessarily equal.
   - **Numerical**, or quantitative data, consists of numbers that represent measurable quantities, where mathematical operations like addition and averaging make sense.
-## F
 - **Forward feature selection** is a step-by-step method for choosing the most useful features for a model. It starts with no features and adds one feature at a time, each time selecting the feature that improves model performance the most, until adding more features no longer helps. This helps build a simpler, more effective model by keeping only the most relevant variables.
 ## G
 - **Gradient descent** is an optimization algorithm used to minimize a function (like a loss function) by iteratively adjusting parameters in the direction of the steepest decrease (negative gradient). Starting from an initial guess, it updates parameters step by step using a learning rate until the model reaches the lowest error, making it essential for training machine learning models like linear regression and neural networks.
