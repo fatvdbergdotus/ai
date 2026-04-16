@@ -25,14 +25,16 @@ This page contains a glossary of common Data Science terms, as follows.
   - **Completeness** refers to whether a dataset has all required values present, with minimal or no missing data. A complete dataset includes all necessary fields and records, ensuring analyses and models are based on full and reliable information.
   - **Currency** refers to how up-to-data and relevant the data is.
   - **Integrity** covers the accuracy and consistency of data.
+- **DBT** focuses on the transform part of ELT, allowing data anylysts and engineers to transform data within the data warehouse using SQL.
 - **Deduplicating data** means identifying and removing duplicate records so each entry in your dataset is unique.
 ## E
 - **Encoding techniques of features**
+  - **Base-N encoding** is a technique that converts categorical variables into numerical representations using a base-N number system (e.g., base-2, base-3). Each category is first assigned a number, then that number is expressed in base-N and split across multiple columns. This reduces the number of features compared to one-hot encoding while still capturing category information, making it efficient for high-cardinality data.
   - **Binary encoding** is a technique that converts categorical variables into binary (0/1) representations using fewer columns than one-hot encoding. Each category is first assigned a number, which is then converted into binary form and split across multiple columns. This reduces dimensionality while still representing categorical information, making it more efficient for models with many categories.
   - **Feature encoding** is the process of converting categorical data into numerical form so machine learning models can use it. Since most models work with numbers, techniques like label encoding, one-hot encoding, binary encoding, and target encoding are used to represent categories in a meaningful way while preserving important information.
   - **Label encoding** is a method that converts categorical values into integer numbers, where each category is assigned a unique number. Label encoding introduces an artificial order, even if no real order exists.
   - **One-hot encoding** is a technique used to convert categorical data into numerical format by creating binary (0/1) columns for each category. For example, a feature “Color” with values {Red, Blue, Green} becomes three columns: Red, Blue, Green—where only one column is 1 and the others are 0 for each row. This prevents models from incorrectly assuming any order or ranking between categories.
-  - **Target encoding** is a technique where categorical values are replaced with the average of the target variable for each category. For example, if a category “A” has a higher average target value than “B,” it gets a higher encoded number. This helps capture the relationship between categories and the target, but must be used carefully to avoid overfitting (often with cross-validation or smoothing). Mostly used when there are many categories.
+  - **Target encoding** is a technique where categorical values are replaced with the average of the target variable for each category. For example, if a category “A” has a higher average target value than “B,” it gets a higher encoded number. This helps capture the relationship between categories and the target, but must be used carefully to avoid overfitting (often with cross-validation or smoothing) and data leakage. Mostly used when there are many categories.
 - **Evaluating classification models**
   - **Accuracy** measures overall correctness (TP+TN)/(TP+TN+FP+FN).
   - **Precision** focuses on accuracy of positive predictions (TP)/(TP+FP). Precision is most useful when the cost of false positives is high.
@@ -43,6 +45,7 @@ This page contains a glossary of common Data Science terms, as follows.
   - **Categorical** data is data that represents labels or groups rather than numerical values. The values are categories (e.g., names, types, or classes) and are used to classify information.
   - **Ordinal** data is a type of categorical data where the values have a meaningful order or ranking, but the differences between them are not necessarily equal.
   - **Numerical**, or quantitative data, consists of numbers that represent measurable quantities, where mathematical operations like addition and averaging make sense.
+- **Fivetran** is explicitely designed for the EL part of ELT. It automates the process of pulling data from various sources.
 - **Forward feature selection** is a step-by-step method for choosing the most useful features for a model. It starts with no features and adds one feature at a time, each time selecting the feature that improves model performance the most, until adding more features no longer helps. This helps build a simpler, more effective model by keeping only the most relevant variables.
 ## G
 - **Gradient descent** is an optimization algorithm used to minimize a function (like a loss function) by iteratively adjusting parameters in the direction of the steepest decrease (negative gradient). Starting from an initial guess, it updates parameters step by step using a learning rate until the model reaches the lowest error, making it essential for training machine learning models like linear regression and neural networks.
@@ -71,7 +74,7 @@ This page contains a glossary of common Data Science terms, as follows.
 - **Outliers**: Outliers are data points that are significantly different from the rest of the values in a dataset. They “stand out” because they are much higher or lower than most other observations.
 - **Overfitting** occurs when a model learns the training data too well, including noise and random fluctuations, causing it to perform very well on training data but poorly on new, unseen data. It usually happens when the model is too complex, and can be reduced using techniques like regularization, cross-validation, or simplifying the model.
 ## P
-- **Pandas DataFrame** is a data structure that allows manipulation and analysis of tabular data. Its most common functions for a Pandas DataFrame are:
+- **Pandas DataFrame** is a data structure that allows manipulation and analysis of tabular data (ELT). Its most common functions for a Pandas DataFrame are:
   - df.describe(): Method specifically designed to generate descriptive statistics for numerical columns in a Pandas DataFrame such as mean, SD, quartiles.
   - df.info(): Provides information about the DataFrame such as data types and non-null counts.
   - df.merge(): Merges dataframes on columns
@@ -82,6 +85,7 @@ This page contains a glossary of common Data Science terms, as follows.
   - **Histogram** is a graph that shows the distribution of numerical data by grouping values into ranges called bins. It can be used to find the skewness and outliers of data.
   - **Partial Dependence Plot** is a visualization used to show how a single feature affects a machine learning model’s predictions, while averaging out the influence of all other features. It helps reveal whether the relationship between the feature and the prediction is positive, negative, or non-linear, making complex models easier to interpret.
   - **Scatter plot**: A scatter plot is a graph used to show the relationship between two numerical variables by plotting data points on an x–y axis.
+- **PyTorch** is a machine learning framework not designed for general-purpose ELT automation in data warehouses.
 ## Q
 ## R
 ## S
@@ -90,6 +94,7 @@ This page contains a glossary of common Data Science terms, as follows.
 - **Standardize features**, or z-score normalization, means scaling data so each feature has a mean of 0 and a standard deviation of 1​. This makes all features comparable and helps many machine learning models perform better.
 ## T
 - **TensorBoard** is a visualization tool commonly used with TensorFlow to monitor and analyze machine learning experiments. It lets you track metrics like loss and accuracy, visualize model graphs, and compare different training runs, helping you better understand and debug your models.
+- **TensorFlow** is a machine learning framework, not designed for general-purpose ELTC automation in data warehouses.
 - **Terraform** is an open-source tool that lets you define and manage infrastructure (like servers, databases, and networks) using code instead of manual setup. By writing configurations in a declarative language (HCL), you can automatically create, update, and version-control resources across cloud providers, making infrastructure more consistent, reproducible, and easy to manage.
 ## U
 - **Underfitting** occurs when a model is too simple to capture the underlying patterns in the data, resulting in poor performance on both training and new data. It typically happens when the model has low complexity, not enough features, or insufficient training, leading to high error and inability to learn important relationships.
