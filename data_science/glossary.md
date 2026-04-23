@@ -51,6 +51,7 @@ This page contains a glossary of common Data Science terms, as follows.
   - **GloVe** is a word embedding technique that learns word representations by using global word co-occurrence statistics from a corpus. It captures both local context and overall statistical information.
   - **Skip-gram** does the opposite of CBOW—it predicts surrounding context words given a target word. It performs well for capturing relationships of rare words and produces high-quality word embeddings.
   - **TF-IDF** is a numerical representation that reflects how important a word is in a document relative to a collection of documents. It increases with word frequency in a document but decreases for commonly used words across documents.
+  - **Word2Vec** produces word embeddings by representing ords as dense vectors in a continuous vector space. The position of a word in the vector space is learned based on its context.
 - **Evaluating classification models**
   - **Accuracy** measures overall correctness (TP+TN)/(TP+TN+FP+FN).
   - **Precision** focuses on accuracy of positive predictions (TP)/(TP+FP). Precision is most useful when the cost of false positives is high.
