@@ -4,6 +4,11 @@ This page contains a glossary of common Data Science terms, as follows.
 - **AUC-ROC** (Area Under the Receiver Operating Characteristic curve) is a metric used to evaluate classification models by measuring how well they distinguish between classes. The ROC curve plots the true positive rate against the false positive rate at different thresholds, and the AUC value (ranging from 0 to 1) indicates performance—closer to 1 is better, while 0.5 means random guessing.
 ## B
 - **Backward feature elimination** is a feature selection method that starts with all features and then removes them one by one, each time dropping the feature that has the least impact on model performance. This process continues until removing more features would significantly worsen the model, resulting in a simpler model with only the most important variables.
+- **Bias** can lead to, unfair or discriminatory outcomes, reduced model accuracy and poor generalization  
+  - **Exclusion**: Important data is left out during collection or preprocessing, e.g., removing rows with missing values that mostly belong to one group.
+  - **Label**: target values are incorrect, subjective, or influenced by human bias, e.g., hiring data where past decisions favored certain groups.
+  - **Measurement**: data collected or measured inaccurately or inconsistently, e.g., using income as a proxy for wealth.
+  - **Sampling**: Data sample is not representative of the population, e.g., surveying only young users for a general product.
 - **Binning** converts continous numerical features into discrete categorical features by grouping values in bins.
 ## C
 - **Customer churn prediction** is the process of using data and machine learning to identify which customers are likely to stop using a product or service. By analyzing factors like usage behavior, purchase history, and customer interactions, models can predict churn risk, allowing businesses to take proactive actions (e.g., offers or support) to retain customers and reduce losses. A key metric is achieving a specific precision rate on a validation dataset, minimizing false positives.
