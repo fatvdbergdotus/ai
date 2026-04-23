@@ -1,9 +1,13 @@
-| Encoding Technique | Linear Models (LR, Logistic) | Tree-Based Models (RF, XGBoost) | SVM | Neural Networks | Naive Bayes | Transformers (BERT, GPT) |
-|-------------------|-----------------------------|----------------------------------|-----|------------------|-------------|--------------------------|
-| One-hot encoding  | ✅ Excellent                | ✅ Good                         | ✅ Good | ⚠️ OK (high dim) | ❌ Not ideal | ❌ Not used              |
-| Label encoding    | ❌ Risky (false order)      | ✅ OK                           | ❌ Bad | ⚠️ Sometimes     | ❌ Bad       | ❌ Not used              |
-| TF-IDF            | ✅ Excellent                | ⚠️ OK                           | ✅ Excellent | ⚠️ Rare        | ✅ Excellent | ❌ Not used              |
-| Bag-of-Words      | ✅ Good                     | ⚠️ OK                           | ✅ Good | ⚠️ Rare        | ✅ Excellent | ❌ Not used              |
-| Embeddings        | ⚠️ Rare                     | ❌ Poor                         | ⚠️ Rare | ✅ Best        | ❌ Not used  | ✅ Built-in              |
-| Tokenization      | ❌ No                       | ❌ No                           | ❌ No  | ✅ Required (NLP) | ❌ No        | ✅ Required              |
-| Raw text          | ❌ No                       | ❌ No                           | ❌ No  | ❌ No           | ❌ No        | ❌ No (needs tokens)     |
+| Encoding Technique | Linear Regression | Logistic Regression | K-Means | DBSCAN | Naive Bayes | Random Forest | XGBoost | ARIMA |
+|-------------------|------------------|---------------------|---------|--------|-------------|---------------|---------|--------|
+| One-hot encoding  | ✅ Excellent     | ✅ Excellent        | ⚠️ OK (high dim) | ⚠️ OK (distance issues) | ❌ Not ideal | ✅ Good | ✅ Good | ❌ Not used |
+| Label encoding    | ❌ Risky         | ❌ Risky            | ❌ Bad (fake order) | ❌ Bad | ❌ Bad | ✅ OK | ✅ OK | ❌ Not used |
+| Binary encoding   | ✅ Good          | ✅ Good             | ✅ Good | ✅ Good | ❌ Not ideal | ✅ Good | ✅ Good | ❌ Not used |
+| Base-N encoding   | ✅ Good          | ✅ Good             | ✅ Good | ✅ Good | ❌ Not ideal | ✅ Good | ✅ Good | ❌ Not used |
+| Hash encoding     | ✅ Good          | ✅ Good             | ⚠️ OK (collisions) | ⚠️ OK | ❌ Not ideal | ✅ Good | ✅ Good | ❌ Not used |
+| Target encoding   | ⚠️ Risky         | ⚠️ Risky            | ❌ Not suitable | ❌ Not suitable | ❌ Not ideal | ✅ Excellent | ✅ Excellent | ❌ Not used |
+| TF-IDF            | ⚠️ Rare          | ⚠️ Rare             | ⚠️ Rare | ⚠️ Rare | ✅ Excellent | ⚠️ Rare | ⚠️ Rare | ❌ Not used |
+| Bag-of-Words      | ⚠️ Rare          | ⚠️ Rare             | ⚠️ Rare | ⚠️ Rare | ✅ Excellent | ⚠️ Rare | ⚠️ Rare | ❌ Not used |
+| Embeddings        | ⚠️ Rare          | ⚠️ Rare             | ✅ Good | ✅ Good | ❌ Not used | ❌ Poor | ❌ Poor | ❌ Not used |
+| Tokenization      | ❌ No            | ❌ No               | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No |
+| Raw text          | ❌ No            | ❌ No               | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No | ❌ No |
