@@ -115,6 +115,8 @@ This page contains a glossary of common Data Science terms, as follows.
 - **ROC curve** (Receiver Operating Characteristic curve) is a graph used to evaluate a classification model by plotting the true positive rate (recall) against the false positive rate at different thresholds. It shows how well a model can distinguish between classes, with curves closer to the top-left indicating better performance, and the AUC (Area Under the Curve) summarizing this performance in a single value.
 ## S
 - **Second party data** is acquired from another organization that originally collected it from its own audience.
+- **SHAP values** (SHapley Additive exPlanations) are a way to explain how much each feature contributes to a model’s prediction for a specific data point.
+They come from game theory (Shapley values), where each feature is treated like a “player” contributing to the final prediction.
 - **Singular Value Decomposition** is a matrix factorization technique that decomposes a matrix into three components \( A = U \Sigma V^T \), where \( U \) and \( V^T \) represent directions in the data and \( \Sigma \) contains the importance of those directions. It is widely used for dimensionality reduction, noise reduction, and uncovering underlying patterns in data.
 - **Skewness**: Skewness describes how asymmetrical a dataset is around its mean (average). It tells you whether the data leans more to the left or the right.
 - **Standardize features**, or z-score normalization, means scaling data so each feature has a mean of 0 and a standard deviation of 1​. This makes all features comparable and helps many machine learning models perform better.
