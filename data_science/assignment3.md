@@ -7,3 +7,4 @@ Used files:
 
 Jupyter Notebook:
 - [titanic.ipynb](titanic.ipynb)
+- [titanic_varying_using_features.ipynb](titanic_varying_using_features.ipynb)
