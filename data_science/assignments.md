@@ -27,3 +27,6 @@ Jupyter Notebook:
 - [titanic.ipynb](titanic.ipynb)
 - [titanic_varying_using_features.ipynb](titanic_varying_using_features.ipynb)
 - [titanic_pca.ipynb](titanic_pca.ipynb)
+
+# Assignment 4: Classifying Cats and Dogs images
+- [cats_vs_dogs.ipynb](cats_vs_dogs.ipynb)
