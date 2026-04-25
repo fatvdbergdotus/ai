@@ -6,4 +6,4 @@ Used files:
 - [train.csv](train.csv)
 
 Jupyter Notebook:
-- [titanic.ipynb] (titanic.ipynb)
+- [titanic.ipynb](titanic.ipynb)
