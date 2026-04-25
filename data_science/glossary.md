@@ -56,7 +56,9 @@ This page contains a glossary of common Data Science terms, as follows.
   - **Accuracy** measures overall correctness (TP+TN)/(TP+TN+FP+FN).
   - **Precision** focuses on accuracy of positive predictions (TP)/(TP+FP). Precision is most useful when the cost of false positives is high.
   - **Recall** (sensitivity) measures coverage of actual positives (TP)/(TP+FN). Recall is most useful when the cost of false negatives is high
-  - **F1 Score** balances precision and recall, serving as a reliable metric for imbalanced datasets (2FP)/(F+P). Maximizing the F1 score means optimizing a model to achieve the best balance between precision and recall. 
+  - **F1 Score** balances precision and recall, serving as a reliable metric for imbalanced datasets (2FP)/(F+P). Maximizing the F1 score means optimizing a model to achieve the best balance between precision and recall.
+  - **TPR (Recall)** is TP / (TP+FN)
+  - **TNR (Specificity)** is TN / (TN+FP)
 ## F
 - **False Discovery Rate** correction is a method used in multiple hypothesis testing to control the proportion of false positives among all significant results. Instead of strictly controlling any false positives (like Bonferroni), FDR allows some errors but limits their rate, making it more powerful.
 - **Feature scaling** is the process of rescaling numerical features to a similar range or distribution so that no feature dominates others due to its scale. Common methods include standardization (mean = 0, std = 1) and normalization (min-max scaling to 0–1). It involves scaling the training set and then apply the same transformation to the test set.
