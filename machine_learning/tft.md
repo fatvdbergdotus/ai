@@ -3,4 +3,4 @@ A Temporal Fusion Transformer (TFT) can be used in electricity demand forecastin
 
 Python: [TFT project freek.ipynb](/python/TFT project freek.ipynb)
 
-Dataset: [electricity.csv](/python/electricity.csv)
+Datasets: [electricity.csv](/python/electricity.csv) and [electricity-future.csv](/python/electricity-future.csv)
