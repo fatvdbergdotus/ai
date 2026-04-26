@@ -39,7 +39,7 @@ In **reinforcement learning**, the agent is rewarded for good responses and puni
 
 See also: 
 [TFT forecasting](machine_learning/tft.md), 
-[ARIMA, SARIMA and SARIMAX](arima.md),
+[ARIMA, SARIMA and SARIMAX](machine_learning/arima.md),
 [Linear/Logistic Regression](machine_learning/linear_logistic_regression.md),
 [Multiple Regression](machine_learning/multiple_regression.md),
 [Polynomial Regression](machine_learning/polynomial_regression.md),
