@@ -37,7 +37,9 @@ In **reinforcement learning**, the agent is rewarded for good responses and puni
 
 **Deep learning** (as discussed later) is a type of machine learning that runs inputs through **biologically** inspired artificial neural networks for all of these types of learning [10].
 
-See also: [Linear/Logistic Regression](machine_learning/linear_logistic_regression.md),
+See also: 
+[TFT forecasting](machine_learning/tft.md),
+[Linear/Logistic Regression](machine_learning/linear_logistic_regression.md),
 [Multiple Regression](machine_learning/multiple_regression.md),
 [Polynomial Regression](machine_learning/polynomial_regression.md),
 [Q-Learning](machine_learning/qlearning.md),
