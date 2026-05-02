@@ -119,6 +119,7 @@ This page contains a glossary of common Data Science terms, as follows.
   - **Histogram** is a graph that shows the distribution of numerical data by grouping values into ranges called bins. It can be used to find the skewness and outliers of data.
   - **Partial Dependence Plot** is a visualization used to show how a single feature affects a machine learning model’s predictions, while averaging out the influence of all other features. It helps reveal whether the relationship between the feature and the prediction is positive, negative, or non-linear, making complex models easier to interpret.
   - **Scatter plot**: A scatter plot is a graph used to show the relationship between two numerical variables by plotting data points on an x–y axis.
+- **Provenance tracking** (also called data lineage) is the practice of recording where your data comes from, how it was transformed, and how it flows through a system, so you can trace every result back to its origin.
 - **PyTorch** is a machine learning framework not designed for general-purpose ELT automation in data warehouses.
 ## Q
 ## R
