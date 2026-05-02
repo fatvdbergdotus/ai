@@ -112,7 +112,8 @@ This page contains a glossary of common Data Science terms, as follows.
   - df.merge(): Merges dataframes on columns
   - df.concact(): Combines dataframes by concatenating them along an axis
 - **Plots** Different plots serve different purposes:
-  - **Box plot** A box plot (or box-and-whisker plot) is a graph that shows the distribution of data using five key values: minimum, Q1 (25%), median, Q3 (75%), and maximum.
+  - **Box plot** (or box-and-whisker plot) is a graph that shows the distribution of data using five key values: minimum, Q1 (25%), median, Q3 (75%), and maximum.
+  - **Density plot** (also called a kernel density estimate, KDE) is a smooth curve that shows the distribution of a continuous variable. It’s similar to a histogram, but instead of bars, it uses a continuous line to represent how data is spread out.
   - **Heatmap** A heatmap is a visualization that shows values using colors, making it easy to spot patterns, trends, and relationships in data. A correlation heatmap helps you quickly understand how variables relate to each other, using color to reveal patterns that are hard to see in raw numbers.
   - **Histogram** is a graph that shows the distribution of numerical data by grouping values into ranges called bins. It can be used to find the skewness and outliers of data.
   - **Partial Dependence Plot** is a visualization used to show how a single feature affects a machine learning model’s predictions, while averaging out the influence of all other features. It helps reveal whether the relationship between the feature and the prediction is positive, negative, or non-linear, making complex models easier to interpret.
