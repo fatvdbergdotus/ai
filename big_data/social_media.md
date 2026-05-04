@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 # Big data and social media
 Big data plays a central role in shaping how social media platforms operate and interact with users. Companies like Meta Platforms (which owns Facebook and Instagram) and TikTok collect massive amounts of data from user activity, including likes, shares, comments, and viewing time. This data is analyzed using algorithms to personalize content feeds, ensuring users see posts and videos that match their interests. As a result, users experience more engaging and relevant content, while platforms increase user retention and time spent on their apps.
 
