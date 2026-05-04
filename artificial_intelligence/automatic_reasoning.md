@@ -2,3 +2,5 @@
 
 # Automatic Reasoning
 Automated reasoning in Artificial Intelligence refers to the ability of computer systems to use logical rules and existing knowledge to draw conclusions, solve problems, and make decisions without human intervention. It relies on formal systems such as Mathematical Logic, where facts and rules are represented in a structured way and inference techniques are applied to derive new information. For example, in a medical expert system, if the system knows that “all patients with a high fever and cough may have an infection” and it receives data that a patient has these symptoms, it can automatically infer a possible diagnosis and suggest further tests or treatments. Automated reasoning is widely used in applications such as theorem proving, decision support systems, and intelligent assistants, enabling machines to mimic human-like logical thinking.
+
+Python code: [Automatic reasoning](/python/automatic_reasoning.py)
