@@ -85,6 +85,8 @@ See also: [Glossary](data_science/glossary.md) [Assignments](data_science/assign
 
 In contrast, while Big Data focuses on the engineering and technological challenges of handling vast datasets, Data Science is concerned with extracting meaningful insights, patterns, and predictions from data using statistical analysis, machine learning, and domain knowledge. Big Data and Data Science are therefore complementary but distinct: Big Data provides the raw material and the systems to store and process it, whereas Data Science transforms that material into actionable knowledge, such as predictive models, trends, and decision-support tools. A Big Data engineer might design a system that collects and organizes billions of user interactions, ensuring the data is clean and accessible, while a data scientist would use that prepared data to build models that predict user behavior or optimize business strategies. In essence, Big Data answers the question of how to handle data at scale, while Data Science answers what we can learn from that data, making them interdependent components of modern data-driven organizations.
 
+Applications: [Healthcare](big_data/healthcare.md) [Finance and Banking](big_data/finance.md) [Social Media](big_data/social_media.md) [Entertainment and Streaming](big_data/entertainment.md)
+
 For clarity, the following Venn Diagram illustrates how Data Science and Big Data relate to the (sub)fields that have been mentioned before.
 
 [![Preview](ai2.png)](ai2.pdf)
