@@ -5,4 +5,4 @@ In addition, big data enables targeted advertising and trend analysis on social 
 
 The following Jupyter Notebook demonstrates a complete end-to-end machine learning workflow for social media sentiment analysis using Python. It begins by installing and importing essential libraries, then loads a real Twitter dataset directly from an online source. The data is preprocessed by separating text (tweets) and labels (sentiment), and converted into numerical features using TF-IDF vectorization. The notebook then splits the data into training and testing sets, trains a Logistic Regression model, and evaluates its performance using a classification report. Finally, it includes a simple function to predict the sentiment of new user-input text, making it a practical, hands-on example of how big data techniques can be applied to analyze large volumes of social media content.
 
-Jupyter notebook: [Sentiment analysis](\python\sentiment.ipynb)
+Jupyter notebook: [Sentiment analysis](/python/sentiment.ipynb)
