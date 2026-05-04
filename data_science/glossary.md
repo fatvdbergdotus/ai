@@ -89,6 +89,10 @@ This page contains a glossary of common Data Science terms, as follows.
 ## L
 - **Low variance filter** is a feature selection technique that removes variables with little to no variability across the dataset. Features that barely change (e.g., almost all values are the same) don’t provide useful information for distinguishing between outcomes, so they can be safely dropped. This helps reduce noise, improve model performance, and speed up training.
 ## M
+- **Machine learning libraries**: Python has a rich ecosystem for machine learning, ranging from beginner-friendly tools to highly advanced frameworks.
+  - **Scikit-learn** is great for beginners and classical ML algorithms (regression, classification, clustering). It is easy to use, has built-in datasets and utilities, but is not designed for deep learning.
+  - **TensorFlow** is developed by Google, used for deep learning and large-scale models. It supports neural networks and production deployment, works with GPUs/TPUs, but has a higher learning curve.
+  - **PyTorch** is developed by Meta, very popular in research and increasingly in industry. It is flexible and intuitive, has a dynamic computation graph (easier debugging), and strong community support
 - **MLflow** is an open-source platform used to manage the entire machine learning lifecycle, from experiments to deployment.
 - **Models** [Which models and encoding techniques to combine](models_enoding_techniques.md)
   - **ARIMA** is a statistical model used for time series forecasting, meaning it predicts future values based on past data patterns. It combines three parts: AR (AutoRegressive) uses past values, I (Integrated) removes trends by differencing the data, and MA (Moving Average) models past errors. ARIMA is commonly used for forecasting things like sales, stock prices, or demand over time.
