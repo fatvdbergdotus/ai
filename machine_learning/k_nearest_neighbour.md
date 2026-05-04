@@ -1,6 +1,0 @@
-(c) 2026 Freek van den Berg. All rights reserved.
-
-# K-Nearest Neighbour
-K-Nearest Neighbour (KNN) is a simple yet powerful algorithm in Machine Learning used for both classification and regression tasks, based on the idea that similar data points tend to be close to each other in feature space. Instead of building an explicit model, KNN stores the training data and makes predictions by identifying the “K” closest data points (neighbors) to a given input using a distance metric such as Euclidean distance, then assigning the most common class (for classification) or averaging the values (for regression). For example, in a classification problem like email spam detection, KNN can classify a new email by comparing it to the most similar previously labeled emails and assigning the majority label. While KNN is easy to understand and implement, it can become computationally expensive with large datasets and is sensitive to the choice of K and the scaling of features, which can significantly influence its performance.
-
-Python code: [KNN](/python/KNN.ipynb)
