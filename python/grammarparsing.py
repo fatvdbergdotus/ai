@@ -9,22 +9,22 @@ from nltk.parse import ChartParser
 # CFG = Context-Free Grammar
 # This defines how sentences can be structured
 grammar = CFG.fromstring("""
-S -> NP VP              # A sentence = Noun Phrase + Verb Phrase
+S -> NP VP              
 
-NP -> Det N             # Noun Phrase = Determiner + Noun
-NP -> Det Adj N         # Noun Phrase = Determiner + Adjective + Noun
-NP -> NP PP             # Noun Phrase can be extended with a Prepositional Phrase
+NP -> Det N             
+NP -> Det Adj N         
+NP -> NP PP             
 
-VP -> V NP              # Verb Phrase = Verb + Noun Phrase
-VP -> VP PP             # Verb Phrase can also include a Prepositional Phrase
+VP -> V NP              
+VP -> VP PP             
 
-PP -> P NP              # Prepositional Phrase = Preposition + Noun Phrase
+PP -> P NP              
 
-Det -> 'the' | 'a'      # Determiners
-Adj -> 'big'            # Adjectives
-N -> 'dog' | 'cat' | 'telescope'  # Nouns
-V -> 'saw'              # Verb
-P -> 'with'             # Preposition
+Det -> 'the' | 'a'      
+Adj -> 'big'            
+N -> 'dog' | 'cat' | 'telescope'  
+V -> 'saw'              
+P -> 'with'             
 """)
 
 # ----------------------------------------
@@ -56,3 +56,27 @@ for i, tree in enumerate(trees):
     
     # Pretty visual tree structure
     tree.pretty_print()
+
+'''
+OUTPUT:
+
+  (VP
+    (V saw)
+    (NP
+      (NP (Det a) (N cat))
+      (PP (P with) (NP (Det a) (N telescope))))))
+                 S                                
+      ___________|_______                          
+     |                   VP                       
+     |        ___________|___                      
+     |       |               NP                   
+     |       |        _______|____                 
+     |       |       |            PP              
+     |       |       |        ____|___             
+     NP      |       NP      |        NP          
+  ___|___    |    ___|___    |     ___|______      
+Det Adj  N   V  Det      N   P   Det         N    
+ |   |   |   |   |       |   |    |          |     
+the big dog saw  a      cat with  a      telescope
+
+'''
