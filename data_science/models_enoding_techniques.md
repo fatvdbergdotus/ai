@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 | Encoding Technique | Linear Regression | Logistic Regression | K-Means | DBSCAN | Naive Bayes | Random Forest | XGBoost | ARIMA |
 |-------------------|------------------|---------------------|---------|--------|-------------|---------------|---------|--------|
 | One-hot encoding  | ✅ Excellent     | ✅ Excellent        | ⚠️ OK (high dim) | ⚠️ OK (distance issues) | ❌ Not ideal | ✅ Good | ✅ Good | ❌ Not used |

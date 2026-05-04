@@ -1,2 +1,4 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 # Natural Language Processing
 Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, interpret, and generate human language. It combines linguistics and machine learning to analyze text and speech, allowing systems to extract meaning, detect intent, and respond appropriately. For example, when you ask a voice assistant like Siri “What’s the weather today?”, it processes your speech, identifies key information such as “weather” and “today,” and provides a relevant answer. Similarly, tools like Google Translate use NLP to translate sentences between languages, demonstrating how machines can work with human language in real-world applications.

@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 # Large Language Models (LLMs)
 ## Advantages of offline models
 The following LLMs of Ollama can be executed offline. Running large language models (LLMs) offline (locally on your own device or private servers) has some clear advantages—especially depending on your priorities like privacy, cost, or reliability. Here’s a structured breakdown:

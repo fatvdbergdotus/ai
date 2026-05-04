@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 # Recurrent Neural Network
 A Recurrent Neural Network (RNN) is a type of neural network in Machine Learning specifically designed to handle sequential data by maintaining a form of memory through recurrent connections. Unlike feedforward networks, RNNs process inputs step by step while carrying information from previous steps, allowing them to capture temporal dependencies and context over time. At each time step, the network takes the current input along with the previous hidden state to produce a new hidden state and output, making it well-suited for tasks where order matters. For example, in language modeling, an RNN can predict the next word in a sentence by considering the words that came before, while in speech recognition it can interpret audio signals over time. However, standard RNNs can struggle with long-term dependencies due to issues like vanishing gradients, which led to the development of improved variants such as Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) that better retain information over longer sequences.
 

@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 ## Backpropagation in Neural Networks
 
 Backpropagation (short for *backward propagation of errors*) is an algorithm used to train neural networks by adjusting weights to minimize prediction errors.

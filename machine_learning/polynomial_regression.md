@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 # Polynomial Regression
 **Polynomial regression** is a type of regression analysis used to model relationships between variables when the pattern is **nonlinear** but can still be expressed as a curved equation. Instead of fitting a straight line (as in linear regression), it fits a polynomial equation such as:
 

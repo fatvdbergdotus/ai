@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 # Assignment 1: mammogram-detected mass
 This assignment involves building a machine learning model to predict whether a mammogram-detected mass is benign or malignant using a public dataset of 961 cases. The dataset includes features such as patient age, mass shape, margin, and density, while the BI-RADS assessment is excluded since it reflects diagnostic confidence rather than predictive value. The goal is to use these features to predict the “severity” (benign or malignant). Because medical misdiagnoses—especially false positives—can lead to unnecessary stress and procedures, improving prediction accuracy through machine learning has real-world importance.
 

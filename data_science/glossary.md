@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 # Data Science Glossary
 This page contains a glossary of common Data Science terms, as follows.
 ## A

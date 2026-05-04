@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 # Data Architectures
 
 | Concept            | Type / Category              | Main Purpose                                      | Data Type Supported                         | Key Characteristics                                                                 | Typical Use Cases                              |

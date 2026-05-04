@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 ## Q-Learning
 
 Q-learning is a reinforcement learning algorithm used in artificial intelligence to help an agent learn the best actions to take in an environment. It is a **model-free** method, meaning the agent does not need prior knowledge of the environment and instead learns through trial and error.

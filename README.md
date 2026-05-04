@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 # An Artificial intelligence Taxonomy including Python Code
 ## By Freek van den Berg
 
