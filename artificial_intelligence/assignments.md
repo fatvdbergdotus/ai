@@ -1,6 +1,6 @@
 (c) 2026 Freek van den Berg. All rights reserved.
 
-# Artifical Intelligence Assignments
+# Traditional Artifical Intelligence Assignments
 
 ## Sudoku solver
 A Sudoku solver typically uses a backtracking algorithm that fills in empty cells one by one by trying numbers from 1 to 9 and checking whether each placement is valid according to Sudoku rules (no duplicates in the same row, column, or 3×3 subgrid). The solver scans the grid for an empty spot, tests possible values, and recursively continues this process; if it reaches a point where no number fits, it backtracks to the previous step and tries a different option. This systematic trial-and-error approach ensures that all possibilities are explored efficiently, guaranteeing a correct solution if one exists.
