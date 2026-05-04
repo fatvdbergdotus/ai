@@ -3,6 +3,14 @@ import nltk
 from nltk import CFG
 from nltk.parse import ChartParser
 
+'''
+In grammar parsing, symbols like S, NP, VP, and PP represent different parts of a sentence structure: S (Sentence) is the complete sentence, 
+usually made up of a noun phrase (NP) and a verb phrase (VP); NP refers to a group of words acting as a noun (like “the big dog”), while VP 
+contains the verb and its object or action (like “saw a cat”); PP (prepositional phrase) adds extra information such as location or manner 
+(like “with a telescope”). Other components include Det (determiner) like “the” or “a,” N (noun) like “dog,” V (verb) like “saw,” Adj (adjective) 
+like “big,” and P (preposition) like “with,” all working together to define how sentences are grammatically structured.
+'''
+
 # ----------------------------------------
 # 1. Define grammar (rules of the language)
 # ----------------------------------------
