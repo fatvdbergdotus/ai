@@ -41,7 +41,7 @@ In **reinforcement learning**, the agent is rewarded for good responses and puni
 **Deep learning** (as discussed later) is a type of machine learning that runs inputs through **biologically** inspired artificial neural networks for all of these types of learning [10].
 
 See also: 
-[Assigments](machine_learning/assignments.md) 
+[Assignments](machine_learning/assignments.md) 
 
 ## Neural Networks
 An artificial [neural network](neural_networks/) is based on a **collection of nodes** also known as artificial **neurons**, which loosely model the neurons in a biological brain. It is trained to recognise patterns; once trained, it can recognise those patterns in fresh data. There is an **input**, at least one **hidden layer of nodes**, and an **output**. Each node applies a function and once the weight crosses its specified threshold, the data is transmitted to the next layer. A network is typically called a deep neural network if it has at least two hidden layers [8].
