@@ -22,7 +22,7 @@ Traditional AI is **applied** in several areas that rely on rule-based reasoning
 
 However, traditional AI has significant limitations. It struggles with **uncertainty**, **ambiguity**, and the **complexity** of real-world environments, as it requires exhaustive manual knowledge engineering and cannot easily adapt to new or unseen data. These challenges led to the rise of data-driven approaches, particularly machine learning, which can automatically learn patterns from data rather than relying solely on predefined rules.
 
-See also: [Assignments](ai/assignments.py),
+See also: [Assignments](artifical_intelligence/assignments.py),
 [Sudoku Solver](python/sudoku_solver.py), [Connect4](python/connect4.py), [Knowledge Representation](artificial_intelligence/knowledge_representation.md), [Natural Language Processing](artificial_intelligence/natural_language_processing.md), [Visual Perception](artificial_intelligence/visual_perception.md), [Intelligent Robot](artificial_intelligence/intelligent_robot.md) and [Automatic Reasoning](artificial_intelligence/automatic_reasoning.md).
 
 ## Machine Learning
