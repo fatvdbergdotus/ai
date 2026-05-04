@@ -148,7 +148,7 @@ def minimax(board, depth, alpha, beta, maximizing):
         return best_col, value
 
 
-# 🎮 Game loop
+# Game loop
 board = create_board()
 game_over = False
 turn = random.randint(PLAYER, AI)
