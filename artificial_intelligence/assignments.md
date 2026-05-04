@@ -22,3 +22,8 @@ This code below uses NLTK to demonstrate grammar parsing by defining a context-f
 
 See [Grammar Parsing](/python/grammarparsing.py)
 
+## Time scheduling
+Timetable scheduling is a classic Constraint Satisfaction Problem (CSP) where you assign time slots (and often rooms) to events—like classes or exams—while satisfying constraints such as no student having two classes at the same time, no teacher being double-booked, and limited room availability.
+
+See [Time Scheduling](/python/timescheduling.py)
+
