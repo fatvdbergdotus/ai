@@ -17,3 +17,8 @@ Map coloring in Python is typically implemented as a constraint satisfaction pro
 
 See [Map colouring](/python/mapcoloring.py)
 
+## Grammar parsing
+This code below uses NLTK to demonstrate grammar parsing by defining a context-free grammar (CFG) that describes how sentences are structured (e.g., a sentence consists of a noun phrase and a verb phrase). It then creates a ChartParser, which efficiently analyzes a given sentence—“the big dog saw a cat with a telescope”—by breaking it into words and applying the grammar rules to generate all valid parse trees. Because the grammar allows prepositional phrases to attach in different ways, the parser produces multiple trees, illustrating ambiguity in natural language. Finally, the code prints each parse tree in both text and visual formats, showing how the sentence can be interpreted structurally in different ways.
+
+See [Grammar Parsing](/python/grammarparsing.py)
+
