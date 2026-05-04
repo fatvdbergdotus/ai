@@ -2,7 +2,7 @@
 
 # Traditional Artifical Intelligence Assignments
 
-## Sudoku solver
+## Sudoku solver (using Z3)
 A Sudoku solver typically uses a backtracking algorithm that fills in empty cells one by one by trying numbers from 1 to 9 and checking whether each placement is valid according to Sudoku rules (no duplicates in the same row, column, or 3×3 subgrid). The solver scans the grid for an empty spot, tests possible values, and recursively continues this process; if it reaches a point where no number fits, it backtracks to the previous step and tries a different option. This systematic trial-and-error approach ensures that all possibilities are explored efficiently, guaranteeing a correct solution if one exists.
 
 See [Sudoku Solver](/python/sudoku_solver.py)
@@ -22,7 +22,7 @@ This code below uses NLTK to demonstrate grammar parsing by defining a context-f
 
 See [Grammar Parsing](/python/grammarparsing.py)
 
-## Time scheduling
+## Time scheduling (using Z3)
 Timetable scheduling is a classic Constraint Satisfaction Problem (CSP) where you assign time slots (and often rooms) to events—like classes or exams—while satisfying constraints such as no student having two classes at the same time, no teacher being double-booked, and limited room availability.
 
 See [Time Scheduling](/python/timescheduling.py)
