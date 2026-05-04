@@ -1,7 +1,6 @@
 # Global Markdown Index
 
 - [An Artificial intelligence Taxonomy including Python Code](README.md#an-artificial-intelligence-taxonomy-including-python-code)
-  - [By Freek van den Berg](README.md#by-freek-van-den-berg)
   - [Artificial Intelligence](README.md#artificial-intelligence)
   - [Machine Learning](README.md#machine-learning)
   - [Neural Networks](README.md#neural-networks)
