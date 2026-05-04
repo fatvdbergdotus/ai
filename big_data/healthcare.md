@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 # Big data and healthcare
 Big data is transforming healthcare by enabling more accurate diagnoses, personalized treatments, and improved patient outcomes. Massive volumes of health-related data—ranging from electronic health records and medical imaging to wearable device data and genomic information—can now be analyzed using advanced analytics and machine learning. This allows healthcare providers to detect patterns that would be impossible to identify manually, such as early warning signs of diseases or predicting patient risks. As a result, clinicians can make faster, evidence-based decisions, while patients benefit from more tailored and proactive care.
 

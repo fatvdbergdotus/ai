@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 # Big data and finance
 Big data is reshaping the financial industry by enabling faster decision-making, improved risk management, and more personalized services. Financial institutions collect vast amounts of data from transactions, market movements, customer behavior, and even social media. By analyzing this data using advanced analytics and machine learning, banks and investment firms can detect patterns, predict market trends, and identify potential risks such as fraud or credit defaults. This helps organizations make more accurate and timely decisions while improving overall efficiency.
 

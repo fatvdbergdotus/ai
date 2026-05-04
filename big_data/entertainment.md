@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 # Big data and entertainment
 Big data has significantly transformed the entertainment industry by enabling companies to better understand audience preferences and deliver highly personalized content. Streaming platforms like Netflix and Spotify analyze massive amounts of user data, including viewing habits, listening history, and user interactions. This allows them to recommend movies, shows, and music tailored to individual tastes, increasing user engagement and satisfaction. Big data also helps content creators decide what type of content to produce by identifying trends and predicting what audiences are most likely to enjoy.
 
