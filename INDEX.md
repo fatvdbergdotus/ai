@@ -1,3 +1,5 @@
+(c) 2026 Freek van den Berg. All rights reserved.
+
 # Global Markdown Index
 
 - [An Artificial intelligence Taxonomy including Python Code](README.md#an-artificial-intelligence-taxonomy-including-python-code)
