@@ -91,6 +91,15 @@ For clarity, the following Venn Diagram illustrates how Data Science and Big Dat
 
 [![Preview](ai2.png)](ai2.pdf)
 
+## Hybrid Intelligence
+**Hybrid Intelligence** is the collaboration between **human intelligence** and **AI** systems (see Venn diagram below) to achieve better outcomes than either could accomplish alone. Instead of replacing people, Hybrid Intelligence combines human strengths—such as creativity, emotional understanding, ethical judgment, and contextual reasoning—with AI strengths like speed, pattern recognition, large-scale data analysis, and automation. The goal is to create systems where humans and machines continuously learn from and support one another in decision-making, problem-solving, and innovation.
+
+This concept is increasingly important across industries such as healthcare, finance, education, and engineering. For example, in medicine, AI can quickly analyze medical images and detect possible abnormalities, while doctors use their expertise and patient knowledge to make final diagnoses and treatment decisions. In business, AI tools can identify market trends or customer behaviors, but human leaders interpret those insights strategically and ethically. Hybrid Intelligence works best when there is a balanced partnership in which humans remain actively involved, supervising, correcting, and guiding AI systems.
+
+The future of Hybrid Intelligence focuses on building trust, transparency, and effective collaboration between humans and machines. Researchers and companies are exploring ways to make AI systems more explainable and adaptive so that people can better understand and interact with them. As AI technologies become more advanced, Hybrid Intelligence is expected to shape workplaces, education systems, and everyday life by enhancing human capabilities rather than replacing them. This approach emphasizes that the most powerful intelligence may come from cooperation between humans and intelligent machines.
+
+[![Preview](ai3.png)](ai3.pdf)
+
 ## Bibilography
 [1] Russell & Norvig (2021), pp. 1–4.
 
