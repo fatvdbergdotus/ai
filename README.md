@@ -9,7 +9,7 @@ AI is not a monolithic discipline but rather an umbrella term encompassing a ran
 
 More recent developments, including **generative AI** and **large language models**, further expand the scope of AI by enabling systems to generate coherent and contextually relevant content. These capabilities also underpin **agentic AI**, in which AI systems use LLM-based reasoning to pursue goals, plan and execute multi-step tasks, interact with tools and environments, and adapt their behavior based on feedback.
 
-These subfields are highly interdependent and often overlap in both theory and application. A comprehensive understanding of AI therefore requires not only familiarity with its individual components but also an appreciation of the relationships between them and their collective role in advancing intelligent systems. 
+All these subfields are highly interdependent and often overlap in both theory and application. A comprehensive understanding of AI therefore requires not only familiarity with its individual components but also an appreciation of the relationships between them and their collective role in advancing intelligent systems. 
 The following Venn diagram conveniently illustrates how these subfields **overlap**. In the explanations that follow, each field is discussed without considering its direct subfield. For instance, the explanation of Artificial Intelligence considers the field of AI without considering Machine Learning, that is, traditional AI.
 
 [![Preview](ai.png)](ai.pdf)
