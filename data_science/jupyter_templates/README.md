@@ -43,14 +43,3 @@ This repository contains the following Jupyter Notebook templates:
 - **Project Notebook:** This notebook provides a project notebook template that is used to improve logical workflow.
 
 - **Model Evaluation:** This notebook provides useful functions that follow the workflow of a train, validate, test model development process. The functions make it easy to view model results at any stage of the process as well as aggregate results into a dataframe for model comparison.
-
-## Contributing
-If you have a notebook template that you would like to contribute, please follow these steps:
-
-1. Fork the repository
-2. Create a new branch (git checkout -b new-template)
-3. Add your template to the templates/ directory
-4. Update the README.md file to include your new template in the list of templates
-5. Commit your changes (git commit -am 'Add new template')
-6. Push to the branch (git push origin new-template)
-7. Create a new Pull Request
