@@ -1,6 +1,6 @@
 # Data Science Jupyter Notebook Templates
 
-This repository contains a collection of Jupyter Notebook templates for data science tasks such as hypothesis tests, regression models, and machine learning models. These templates are designed to help data scientists and analysts quickly and easily create and execute common data analysis tasks using Python.
+This repository (found at [https://github.com/CoenMeintjes/data_science_notebook_templates](https://github.com/CoenMeintjes/data_science_notebook_templates)) contains a collection of Jupyter Notebook templates for data science tasks such as hypothesis tests, regression models, and machine learning models. These templates are designed to help data scientists and analysts quickly and easily create and execute common data analysis tasks using Python.
 
 ## Table of Contents
 - [Getting Started](#Getting-Started)
