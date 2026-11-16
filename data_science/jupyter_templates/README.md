@@ -1,6 +1,6 @@
 # Data Science Jupyter Notebook Templates
 
-This repository contains a collection of reusable Jupyter Notebook templates for common data science tasks, including exploratory data analysis, hypothesis testing, regression analysis, classification, clustering, and machine learning model evaluation.
+This repository by [Coen Meintjes](https://github.com/CoenMeintjes/data_science_notebook_templates) contains a collection of reusable Jupyter Notebook templates for common data science tasks, including exploratory data analysis, hypothesis testing, regression analysis, classification, clustering, and machine learning model evaluation.
 
 The templates are designed to help data scientists and analysts quickly develop, execute, and evaluate common data analysis and machine learning workflows using Python.
 
@@ -155,15 +155,3 @@ The notebooks use Python and commonly adopted data science and machine learning 
 | SciPy | Scientific and statistical computing | [Documentation](https://docs.scipy.org/doc/scipy/) |
 | Statsmodels | Statistical modelling and hypothesis testing | [Documentation](https://www.statsmodels.org/) |
 | Scikit-learn | Machine learning | [Documentation](https://scikit-learn.org/stable/) |
-
-## Getting Help
-
-The following resources provide additional information about the technologies and methods used in the notebooks:
-
-- [Python Documentation](https://docs.python.org/3/)
-- [Jupyter Documentation](https://docs.jupyter.org/)
-- [NumPy Documentation](https://numpy.org/doc/)
-- [Pandas Documentation](https://pandas.pydata.org/docs/)
-- [SciPy Documentation](https://docs.scipy.org/doc/scipy/)
-- [Statsmodels Documentation](https://www.statsmodels.org/)
-- [Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html)
